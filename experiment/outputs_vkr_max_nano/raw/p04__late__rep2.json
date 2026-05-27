@@ -1,0 +1,43 @@
+{
+  "run_id": "p04__late__rep2",
+  "prompt_id": "p04",
+  "condition": "late",
+  "repetition_id": 2,
+  "timestamp": "2026-05-19T17:58:51.543867+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сопоставь раннее и позднее применение logit bias в академическом стиле: укажи по одному потенциальному преимуществу и по одному ограничению, а затем сделай осторожный вывод.",
+  "full_output_text": "Раннее применение логит-биаса в моделях машинного обучения позволяло более эффективно учитывать предварительные знания или предположения о распределении данных, что могло способствовать повышению точности и интерпретируемости модели. Однако, в этом случае, одним из существенных ограничений являлась возможность введения предвзятости, обусловленной неправильной или устаревшей информацией, что могло негативно сказаться на общем качестве предсказаний. Позднее внедрение логит-биаса, как правило, сопровождалось развитием методов автоматической настройки и регуляризации, что позволяло уменьшить риск предвзяенности и повысило устойчивость модели к переобучению. Однако при этом возникает риск чрезмерной адаптации к обучающим данным и утраты способности модели к обобщению на новые ситуации. В целом можно отметить",
+  "token_count": 97,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.020618556701030927
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 2
+  },
+  "total_marker_score": 0.020618556701030927,
+  "delta_p0": 0.007957,
+  "cosine_similarity": 0.727277,
+  "perplexity": 733.201403,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

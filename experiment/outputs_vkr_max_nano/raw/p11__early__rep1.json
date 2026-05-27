@@ -1,0 +1,41 @@
+{
+  "run_id": "p11__early__rep1",
+  "prompt_id": "p11",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-05-19T18:04:43.957112+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй краткий аналитический комментарий о том, почему результаты эксперимента по позиционному вмешательству следует интерпретировать с учетом выбора модели и параметров декодирования.",
+  "full_output_text": "Результаты эксперимента по позиционному вмешательству требуют осторожной интерпретации в связи с зависимостью от выбранной модели и параметров декодирования. Различные модели могут по-разномуотражать структурные особенности данных и иметь разные предположения о механизмах обработки информации, что влияет на чувствительность к вмешательству. Аналогично, параметры декодирования, такие как выбор алгоритма, пороговые значения или методы оптимизации, могут существенно изменять интерпретацию полученных результатов, поскольку они определяют, какие аспекты сигнала или данных считаются значимыми. В связи с этим, для получения надежных выводов необходимо учитывать возможные вариации в моделях и параметрах, а также проводить дополнительные проверки и сравнения с альтернативными подходами. Такой подход способствует более объективной оценке влияния позиционного",
+  "token_count": 101,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": -0.01531,
+  "cosine_similarity": 0.588928,
+  "perplexity": 594.896478,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

@@ -1,0 +1,44 @@
+{
+  "run_id": "p07__mid__rep2",
+  "prompt_id": "p07",
+  "condition": "mid",
+  "repetition_id": 2,
+  "timestamp": "2026-05-19T18:01:19.943043+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Дай осторожную исследовательскую оценку того, насколько пилотный эксперимент вообще может подтверждать гипотезу о позиционном эффекте вмешательства. Включи одну оговорку и один итоговый вывод.",
+  "full_output_text": "Пилотный эксперимент, как правило, служит предварительным этапом исследования, позволяющим оценить осуществимость и потенциальные эффекты вмешательства, однако его ограниченная выборка и краткосрочный характер зачастую затрудняют однозначное подтверждение гипотезы о позиционном эффекте. В частности, результаты пилотных исследованиймогут свидетельствовать лишь об ориентировочных тенденциях и не обеспечивают достаточной статистической мощности для обоснованных выводов. Важно учитывать возможные искажения, связанные с ограниченным размером выборки, случайными колебаниями и возможной предвзятостью, что требует осторожности при интерпретации полученных данных. Поэтому, несмотря на наличие признаков позиционного эффекта, полученных в пилотном эксперименте, их нельзя считать окончательным подтверждением гипотезы",
+  "token_count": 87,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.022988505747126436
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1,
+    "поэтому": 1
+  },
+  "total_marker_score": 0.022988505747126436,
+  "delta_p0": 0.007804,
+  "cosine_similarity": 0.480538,
+  "perplexity": 838.646616,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

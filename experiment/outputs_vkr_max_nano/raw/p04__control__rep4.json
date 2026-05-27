@@ -1,0 +1,43 @@
+{
+  "run_id": "p04__control__rep4",
+  "prompt_id": "p04",
+  "condition": "control",
+  "repetition_id": 4,
+  "timestamp": "2026-05-19T17:58:19.222859+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сопоставь раннее и позднее применение logit bias в академическом стиле: укажи по одному потенциальному преимуществу и по одному ограничению, а затем сделай осторожный вывод.",
+  "full_output_text": "Раннее применение logit bias в моделях машинного обучения позволяло более точно управлять вероятностями генерации определённых слов или фраз, что способствовало повышению релевантности и согласованности выводов модели в контексте конкретных задач. Однако, в этом случае, одним из существенных ограничений являлась потенциальная предвзятость, возникающая вследствие чрезмерного или неправильного использования bias, что могло негативно сказаться на объективности и справедливости результатов. Позднее внедрение logit bias, как правило, сопровождалось более тонкой настройкой и автоматизацией процесса, что позволяло снизить риск предвзятости и повысить гибкость модели. Тем не менее, данное развитие также нередко сопряжено с увеличением сложности интерпретации и контроля за результатами, что требует дополнительных",
+  "token_count": 98,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.01020408163265306
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.01020408163265306,
+  "delta_p0": -0.002457,
+  "cosine_similarity": 1.0,
+  "perplexity": 501.115964,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

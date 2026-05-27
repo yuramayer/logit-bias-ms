@@ -1,0 +1,43 @@
+{
+  "run_id": "p08__late__rep3",
+  "prompt_id": "p08",
+  "condition": "late",
+  "repetition_id": 3,
+  "timestamp": "2026-03-21T17:04:05.738129+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему токенизация и многотокенные маркеры усложняют применение logit bias. Укажи два следствия для дизайна эксперимента.",
+  "full_output_text": "Токенизация и использование многотокенных маркеров усложняют применение logit bias, поскольку logit bias воздействует на вероятности отдельных токенов, а не на последовательности токенов целиком. В случае многотокенных маркеров, которые состоят из нескольких токенов, изменение вероятности одного токена не гарантирует желаемого эффекта на всю последовательность, что снижает точность управления генерацией модели. Кроме того, неоднородность токенизации приводит к непредсказуемым взаимодействиям между токенами, затрудняя интерпретациюи настройку logit bias, поскольку необходимо учитывать контекст и взаимозависимость токенов внутри маркера. В результате, при проектировании экспериментов следует учитывать необходимость более тонкой настройки bias",
+  "token_count": 85,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.011764705882352941
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "кроме того": 1
+  },
+  "total_marker_score": 0.011764705882352941,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

@@ -1,0 +1,5 @@
+condition,run_count,error_count,token_count_mean,token_count_min,token_count_max,total_marker_score_mean,total_marker_score_min,total_marker_score_max,delta_p0_mean,delta_p0_min,delta_p0_max,cosine_similarity_mean,cosine_similarity_min,cosine_similarity_max,perplexity_mean,perplexity_min,perplexity_max
+control,6,0,94.666667,84,101,0.010624,0.009901,0.011905,0.0,-0.000155,0.000155,1.0,1.0,1.0,137.95595,134.994925,141.796427
+early,6,0,93.166667,83,100,0.00353,0.0,0.01087,-0.007094,-0.011766,0.000919,0.665317,0.54004,0.755589,221.653643,200.637571,243.615771
+late,6,0,94.5,91,100,0.003493,0.0,0.010753,-0.007131,-0.011766,0.000802,0.676243,0.496856,0.760559,214.776153,192.291849,260.557277
+mid,6,0,94.5,88,102,0.003446,0.0,0.01087,-0.007178,-0.011766,0.000919,0.709337,0.624736,0.756644,203.860042,190.24936,227.097085

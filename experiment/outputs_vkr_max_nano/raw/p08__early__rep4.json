@@ -1,0 +1,41 @@
+{
+  "run_id": "p08__early__rep4",
+  "prompt_id": "p08",
+  "condition": "early",
+  "repetition_id": 4,
+  "timestamp": "2026-05-19T18:01:58.115178+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему токенизация и многотокенные маркеры усложняют применение logit bias. Укажи два следствия для дизайна эксперимента.",
+  "full_output_text": "Токенизация и использование многотокенных маркеров усложняют применение logit bias вследствие увеличения сложности моделирования вероятностных распределений на уровне токенов. Токенизация разбиваетТокенизация разбивает текст на более мелкие единицы, что приводит к размыванию контекста и усложняет точную настройку bias для конкретных слов или фраз. Многотокенные маркеры, объединяющие несколько токенов в один смысловой блок, создают дополнительные уровни абстракции, что затрудняет предсказание и корректировку вероятностей отдельных элементов. В результате, при использовании logit bias необходимо учитывать сложность взаимодействия между токенами и их объединениями, что усложняет точную настройку модели. В контексте дизайна эксперимента это требует более тщ",
+  "token_count": 90,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": -0.005264,
+  "cosine_similarity": 0.571662,
+  "perplexity": 710.094134,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

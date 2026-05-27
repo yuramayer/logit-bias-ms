@@ -1,0 +1,43 @@
+{
+  "run_id": "p04__early__rep2",
+  "prompt_id": "p04",
+  "condition": "early",
+  "repetition_id": 2,
+  "timestamp": "2026-03-21T16:59:34.825873+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сопоставь раннее и позднее применение logit bias в академическом стиле: укажи по одному потенциальному преимуществу и по одному ограничению, а затем сделай осторожный вывод.",
+  "full_output_text": "Раннее применение logit bias в задачах обработки естественного языка преимущественно использовалось для управления генерацией текста на уровне отдельных токенов, что позволяло эффективно корректировать вероятности выбора словОднако такое раннее использование ограничивалось относительно простыми сценариями и не учитывало сложные контексты, что снижало гибкость модели при генерации более длинных и связных текстов. В поздних исследованиях logit bias применяется более избирательно и контекстно, что расширяет возможности управления стилем и содержанием текста, но одновременно усложняет настройку параметров и требует более глубокого понимания внутренней структуры модели. Таким образом, несмотря на очевидные преимущества в точности и контроле, logit bias остается инструментом с ограничениями, связанными с балансом между управляемостью и",
+  "token_count": 102,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.00980392156862745
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "таким образом": 1
+  },
+  "total_marker_score": 0.00980392156862745,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "length"
+}

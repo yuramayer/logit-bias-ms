@@ -1,0 +1,44 @@
+{
+  "run_id": "p03__late__rep4",
+  "prompt_id": "p03",
+  "condition": "late",
+  "repetition_id": 4,
+  "timestamp": "2026-05-19T17:58:11.242669+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши краткий аналитический фрагмент о том, почему ранние этапы генерации могут задавать дискурсивную рамку последующего ответа. Приведи два соображения и короткий вывод.",
+  "full_output_text": "Ранние этапы генерации текста играют ключевую роль в формировании дискурсивной рамки последующего ответа, поскольку они задают начальные ориентиры для дальнейшего развития сообщения. Во-первых, начальные фразы и идеи создают контекст, в рамках которого интерпретируются последующие высказывания, что способствует формированию определённого направления дискурса и ограничивает возможные варианты развития темы. Во-вторых, ранние этапы часто задают тон и стиль коммуникации, что влияет на восприятие и интерпретацию всей последующей информации, формируя ожидания у аудитории и направляя еёТаким образом, ранние этапы генерации служат своего рода \"каркасом\", внутри которого развивается дальнейший дискурс. Их влияние обусловлено не только содержательными аспектами — выбором темы и стиля —",
+  "token_count": 96,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.020833333333333332
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1,
+    "во-вторых": 1
+  },
+  "total_marker_score": 0.020833333333333332,
+  "delta_p0": -0.007858,
+  "cosine_similarity": 0.733979,
+  "perplexity": 598.471042,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "p08__mid__rep3",
+  "prompt_id": "p08",
+  "condition": "mid",
+  "repetition_id": 3,
+  "timestamp": "2026-03-21T17:26:38.251917+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему токенизация и многотокенные маркеры усложняют применение logit bias. Укажи два следствия для дизайна эксперимента.",
+  "full_output_text": "Токенизация и использование многотокенных маркеров усложняют применение logit bias, поскольку logit bias воздействует на вероятности отдельных токенов, а не на целые слова или фразы. В случае многотокенных маркеров изменение вероятности одного токена не гарантирует желаемого эффекта на всю последовательности маркера в целом. Кроме того, токенизация может разбивать смысловые единицы на непредсказуемые части, что затрудняет точное управлениеих генерацией посредством logit bias, так как необходимо учитывать взаимодействие между токенами внутри маркера. Вследствие этого, при проектировании экспериментов следует учитывать необходимость работы с последовательностями токенов, а не с отдельными элементами, что требует более сложных методов регулирования вероятностей. Кроме того, важно предусмотреть анализ влия",
+  "token_count": 99,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.020202020202020204
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "кроме того": 2
+  },
+  "total_marker_score": 0.020202020202020204,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "length"
+}

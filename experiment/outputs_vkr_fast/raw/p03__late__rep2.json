@@ -1,0 +1,43 @@
+{
+  "run_id": "p03__late__rep2",
+  "prompt_id": "p03",
+  "condition": "late",
+  "repetition_id": 2,
+  "timestamp": "2026-03-21T16:39:40.763392+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши краткий аналитический фрагмент о том, почему позиция применения logit bias может влиять на дискурсивную организацию ответа сильнее, чем сама интенсивность вмешательства.",
+  "full_output_text": "Позиция применения logit bias в генеративных моделях существенно влияет на дискурсивную организацию ответа, поскольку она определяет контекстуальную направленность и структуру высказывания на уровне семантических связей и логической последовательности. В отличие от интенсивности вмешательства, которая лишь количественно изменяет вес определённых токенов, позиционная настройка задаёт качественные рамки, в которых формируется смысловой каркас текста. Это обусловлено тем, что дискурс строится не просто из набора слов, а из их взаимного расположения и функции в предложении,определяющей когерентность и связность высказывания. Следовательно, смещение bias в ключевых позициях текста может привести к существенным изменениям в логической структуре и темат",
+  "token_count": 93,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.010752688172043012
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "следовательно": 1
+  },
+  "total_marker_score": 0.010752688172043012,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

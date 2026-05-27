@@ -1,0 +1,41 @@
+{
+  "run_id": "p01__early__rep2",
+  "prompt_id": "p01",
+  "condition": "early",
+  "repetition_id": 2,
+  "timestamp": "2026-05-19T17:55:55.420035+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему строгая формализация метрик важна для исследований управляемой генерации текста. Дай два аргумента и короткий вывод.",
+  "full_output_text": "Строгая формализация метрик в исследованиях управляемой генерации текста играет ключевую роль в обеспечении объективности и воспроизводимости результатов. Первый аргумент заключается в том, что четкие иопределенные метрики позволяют точно измерять качество и релевантность генерируемого текста, что способствует сравнению различных методов и подходов. Второй аргумент связан с необходимостью выявления слабых сторон моделей и направленного их улучшения; без формализованных критериев трудно определить, в каких аспектах генерация нуждается в доработке. В итоге, строгая формализация метрик способствует развитию более надежных и объективных систем управляемой генерации текста, что важно для их практического применения и дальнейших исследований.",
+  "token_count": 90,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": -0.010138,
+  "cosine_similarity": 0.733212,
+  "perplexity": 583.161879,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "stop"
+}

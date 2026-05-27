@@ -1,0 +1,43 @@
+{
+  "run_id": "p04__mid__rep2",
+  "prompt_id": "p04",
+  "condition": "mid",
+  "repetition_id": 2,
+  "timestamp": "2026-03-21T17:20:53.389708+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сопоставь раннее и позднее применение logit bias в академическом стиле: укажи по одному потенциальному преимуществу и по одному ограничению, а затем сделай осторожный вывод.",
+  "full_output_text": "Раннее применение logit bias в задачах генерации текста преимущественно фокусировалось на простом управлении вероятностями предсказаний модели, что позволяло эффективно корректировать склонности модели к определённым словам или фразам. Это обеспечивало относительно прозрачный и контролируемый способ модификации вывода, однакоограничением такого подхода являлась его ограниченная гибкость и возможность непредусмотренного искажения смысловой целостности текста. В более поздних исследованияхВ более поздних исследованиях logit bias стал применяться с использованием более сложных методов адаптации и интеграции с другими техниками управления генерацией, что расширило возможности точной настройки модели и повысило качество выходного текста. Вместе с тем, усложнение методов привело к увеличению вычислительных затрат и необходимости более тщательной настройки",
+  "token_count": 100,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.01
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "вместе с тем": 1
+  },
+  "total_marker_score": 0.01,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "length"
+}

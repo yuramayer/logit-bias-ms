@@ -1,0 +1,41 @@
+{
+  "run_id": "p01__control__rep2",
+  "prompt_id": "p01",
+  "condition": "control",
+  "repetition_id": 2,
+  "timestamp": "2026-05-19T18:23:22.701762+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему строгая формализация метрик важна для исследований управляемой генерации текста. Дай два аргумента и короткий вывод.",
+  "full_output_text": "Строгая формализация метрик в исследованиях управляемой генерации текста играет ключевую роль, поскольку она обеспечивает объективность и воспроизводимость оценки качества моделей. Первый аргумент заключается в том, что четко определенные метрики позволяют стандартизировать сравнение различных подходов, что способствует развитию научного диалога и выявлению наиболее эффективных методов. Второй аргумент связан с возможностью количественной оценки степени соответствия генерируемого текста заданным требованиям, что важно для практических приложений, таких как автоматическая генерация контента или диалоговые системы. В результате, строгая формализация метрик способствует более точному и надежному анализу эффективности моделей, что в конечном итоге повышает качество и применимость управляемых систем генерации текста.",
+  "token_count": 95,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": -0.010138,
+  "cosine_similarity": 1.0,
+  "perplexity": 402.854972,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "stop"
+}

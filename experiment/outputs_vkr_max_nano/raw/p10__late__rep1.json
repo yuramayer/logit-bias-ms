@@ -1,0 +1,44 @@
+{
+  "run_id": "p10__late__rep1",
+  "prompt_id": "p10",
+  "condition": "late",
+  "repetition_id": 1,
+  "timestamp": "2026-05-19T18:04:01.079204+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши осторожное академическое рассуждение о том, почему чрезмерное подавление дискурсивных маркеров может ухудшать читаемость текста. Укажи один риск и одно возможное преимущество.",
+  "full_output_text": "Чрезмерное подавление дискурсивных маркеров в тексте может негативно сказаться на его читаемости, поскольку такие маркеры выполняют важную функцию организации и связности высказывания, помогая читателю ориентироваться в логике изложения. Их избыточное исключение может привести к снижению явности структурных связей, что усложняет восприятие последовательности аргументов и взаимосвязей между идеями. В результате текст может стать менее понятным и более трудным для восприятия, особенно при сложных или многослойных рассуждениях. Однако, с другой стороны,уменьшение использования дискурсивных маркерів может способствовать более лаконичному стилю и избеганию излишней перегруженности текста. Это особенно актуально в случаях необходимости подчеркнуть важность конкрет",
+  "token_count": 93,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.021505376344086023
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1,
+    "с другой стороны": 1
+  },
+  "total_marker_score": 0.021505376344086023,
+  "delta_p0": -0.005767,
+  "cosine_similarity": 0.713298,
+  "perplexity": 579.346561,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

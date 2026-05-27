@@ -1,0 +1,44 @@
+{
+  "run_id": "p08__late__rep4",
+  "prompt_id": "p08",
+  "condition": "late",
+  "repetition_id": 4,
+  "timestamp": "2026-03-21T17:27:04.584620+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему токенизация и многотокенные маркеры усложняют применение logit bias. Укажи два следствия для дизайна эксперимента.",
+  "full_output_text": "Токенизация и использование многотокенных маркеров усложняют применение logit bias, поскольку logit bias воздействует на вероятности отдельных токенов, а не на последовательности токенов целиком. В случае, когда маркер разбивается на несколько токенов, смещение вероятности одного токена не гарантирует желаемого эффекта на всю последовательность, что снижает точность и предсказуемость управления генерацией модели. Кроме того, неоднородность токенизации затрудняет однозначное сопоставление логит-бая с конкретными лингвистическими единицами, что усложняет интерпретацию результатов и требует дополнительных усилий по анализу и корректировке смещений на уровне токенов. В контексте дизайна эксперимента это означает необходимость тщательного выбора и предварительной",
+  "token_count": 89,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.011235955056179775
+    },
+    "argument_development": {
+      "count": 1,
+      "normalized": 0.011235955056179775
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "кроме того": 1,
+    "это означает": 1
+  },
+  "total_marker_score": 0.02247191011235955,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

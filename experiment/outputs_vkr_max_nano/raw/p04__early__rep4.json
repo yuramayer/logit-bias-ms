@@ -1,0 +1,43 @@
+{
+  "run_id": "p04__early__rep4",
+  "prompt_id": "p04",
+  "condition": "early",
+  "repetition_id": 4,
+  "timestamp": "2026-05-19T17:58:32.078987+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сопоставь раннее и позднее применение logit bias в академическом стиле: укажи по одному потенциальному преимуществу и по одному ограничению, а затем сделай осторожный вывод.",
+  "full_output_text": "Раннее применение логистического смещения (logit bias) в моделях машинного обучения позволяло более точно управлять вероятностями предсказываемых событий за счет внесения предварительных оценок в процесс обучения.Это обеспечивало возможность более тонкой настройки модели и повышения её эффективности при работе с ограниченными или специфическими данными. Однако, в поздних подходах использование logit bias стало сопряжено с рядом ограничений, среди которых особенно выделяется риск чрезмерной зависимости от предварительных предположений, что может привести к искажению результатов и снижению общего качества модели при неправильной калибровке. В целом, осторожный вывод заключается в том, что применение logit bias требует взвешенного подхода: его преимущества в улучшении управляемости моделями должны быть сбалансированы с потенциальными рисками и ограничениями, связанными",
+  "token_count": 108,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.009259259259259259
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.009259259259259259,
+  "delta_p0": -0.003402,
+  "cosine_similarity": 0.544142,
+  "perplexity": 816.165528,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

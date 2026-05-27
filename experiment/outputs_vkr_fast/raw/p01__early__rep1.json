@@ -1,0 +1,41 @@
+{
+  "run_id": "p01__early__rep1",
+  "prompt_id": "p01",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-03-21T16:37:41.659310+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему строгая формализация метрик важна для исследований управляемой генерации текста.",
+  "full_output_text": "Строгая формализация метрик в исследованиях управляемой генерации текста играет ключевую роль, поскольку обеспечивает объективную и воспроизводимую оценку качества моделей. Без четко определБез четко определённых критериев оценивания невозможно адекватно сравнивать различные методы и алгоритмы, что затрудняет выявление их сильных и слабых сторон. Формализация метрик способствует стандартизации экспериментов, снижая влияние субъективных факторов и позволяя исследователям фокусироваться на улучшении конкретных аспектов генерации, таких как релевантность, когерентность и разнообразие текста. Кроме того, строгие метрики облегчают автоматизацию процесса оценки, что особенно важно при работе с большими объёмами данных и сложными моделями. В итоге, форм",
+  "token_count": 89,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "length"
+}

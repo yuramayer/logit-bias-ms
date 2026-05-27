@@ -1,0 +1,44 @@
+{
+  "run_id": "p02__late__rep3",
+  "prompt_id": "p02",
+  "condition": "late",
+  "repetition_id": 3,
+  "timestamp": "2026-03-21T16:58:25.803803+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй аргументированное объяснение того, почему proof-of-concept эксперимент допустим как первый шаг в исследовании позиционного вмешательства в LLM. Укажи два основания и одно ограничение.",
+  "full_output_text": "Proof-of-concept (PoC) эксперимент является оправданным первым шагом в исследовании позиционного вмешательства в большие языковые модели (LLM) благодаря своей способности быстро проверить базовые гипотезы и выявить ключевые механизмы влияния. Во-первых, PoC позволяет оперативно оценить, насколько позиционное вмешательство может изменять поведение модели без необходимости развертывания масштабных и дорогостоящих экспериментов. Во-вторых, такой подход способствует выявлению потенциальных проблем и ограничений методики на ранней стадии, что снижает риски при дальнейшем развитии исследования. ОднакоОднако PoC эксперимент имеет ограничение в виде ограниченного объема данных и упрощенных условий, что может не отражать полноту и сложность реальных сценариев использования LLM. Это накладывает",
+  "token_count": 94,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.02127659574468085
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1,
+    "во-вторых": 1
+  },
+  "total_marker_score": 0.02127659574468085,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

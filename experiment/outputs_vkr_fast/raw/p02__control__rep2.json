@@ -1,0 +1,43 @@
+{
+  "run_id": "p02__control__rep2",
+  "prompt_id": "p02",
+  "condition": "control",
+  "repetition_id": 2,
+  "timestamp": "2026-03-21T16:38:34.156586+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй аргументированное объяснение того, почему proof-of-concept эксперимент допустим как первый шаг в исследовании позиционного вмешательства в LLM.",
+  "full_output_text": "Proof-of-concept (PoC) эксперимент является оправданным и необходимым первым шагом в исследовании позиционного вмешательства в большие языковые модели (LLM) благодаря своей способности быстро и эффективно проверить базовые гипотезы. Такой эксперимент позволяет исследователям оценить жизнеспособность идеи без значительных затрат ресурсов и времени, выявить потенциальные проблемы и определить ключевые параметры для дальнейших, более масштабных исследований. В контексте позиционного вмешательства PoC помогает понять, насколько изменение позиции входных данных влияет на поведение модели, что является фундаментальным для разработки более сложных методов улучшения качества генерации текста. Таким образом, PoC служит критическим этапом, обеспечивающим обоснованность и направленность последующих исследований, минимизируя риски и повышая эффективность научного процесса",
+  "token_count": 100,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.01
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "таким образом": 1
+  },
+  "total_marker_score": 0.01,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "length"
+}

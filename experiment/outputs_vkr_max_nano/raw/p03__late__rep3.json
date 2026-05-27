@@ -1,0 +1,45 @@
+{
+  "run_id": "p03__late__rep3",
+  "prompt_id": "p03",
+  "condition": "late",
+  "repetition_id": 3,
+  "timestamp": "2026-05-19T17:58:08.676410+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши краткий аналитический фрагмент о том, почему ранние этапы генерации могут задавать дискурсивную рамку последующего ответа. Приведи два соображения и короткий вывод.",
+  "full_output_text": "Ранние этапы генерации текста играют ключевую роль в формировании дискурсивной рамки последующего ответа, поскольку они задают начальные ориентиры для интерпретации и развития идеи. Во-первых, начальные слова и фразы устанавливают тональность и стиль коммуникации, что влияет на дальнейшее содержание и структуру текста. Например, использование формальных или неформальных выражений определяет уровень формальности последующих высказываний. Во-вторых, ранние этапы помогают определить ключевые темы и направления дискурса, что способствует сосредоточению внимания модели на релевантных аспектах и исключая отвлечения. Таким образом, начальные элементы генерации создают основу для логической последовательности и смысловой целостности последующих частей текста. В совокупности эти соображения свидетельствуют в пользу идеи",
+  "token_count": 97,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 3,
+      "normalized": 0.030927835051546393
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1,
+    "во-вторых": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.030927835051546393,
+  "delta_p0": 0.002237,
+  "cosine_similarity": 0.768161,
+  "perplexity": 604.380551,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

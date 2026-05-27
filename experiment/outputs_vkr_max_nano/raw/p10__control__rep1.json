@@ -1,0 +1,45 @@
+{
+  "run_id": "p10__control__rep1",
+  "prompt_id": "p10",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-05-19T18:03:29.375200+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши осторожное академическое рассуждение о том, почему чрезмерное подавление дискурсивных маркеров может ухудшать читаемость текста. Укажи один риск и одно возможное преимущество.",
+  "full_output_text": "Чрезмерное подавление дискурсивных маркеров в тексте может негативно сказаться на его читаемости, поскольку такие маркеры выполняют важную функцию организации и связности высказывания, помогая читателю ориентироваться в логике изложения. Их избыточное исключение может привести к утрате структурных связок, что усложняет восприятие последовательности идей и снижает ясность текста. Однако, с другой стороны, умеренное использование дискурсивных маркеров способствует более гладкому и естественному стилю, избегая перегруженности и излишней формальности. Таким образом, баланс в применении таких элементов является ключевым: чрезмерное подавление может ухудшить понимание, а их разумное использование — повысить читаемость и эффективность коммуникации.",
+  "token_count": 88,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 3,
+      "normalized": 0.03409090909090909
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1,
+    "с другой стороны": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.03409090909090909,
+  "delta_p0": 0.006818,
+  "cosine_similarity": 1.0,
+  "perplexity": 377.182911,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "stop"
+}

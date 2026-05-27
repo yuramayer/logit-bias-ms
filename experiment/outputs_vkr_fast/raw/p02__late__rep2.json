@@ -1,0 +1,41 @@
+{
+  "run_id": "p02__late__rep2",
+  "prompt_id": "p02",
+  "condition": "late",
+  "repetition_id": 2,
+  "timestamp": "2026-03-21T16:39:02.989619+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй аргументированное объяснение того, почему proof-of-concept эксперимент допустим как первый шаг в исследовании позиционного вмешательства в LLM.",
+  "full_output_text": "Proof-of-concept (PoC) эксперимент является оправданным первым шагом в исследовании позиционного вмешательства в большие языковые модели (LLM) благодаря своей способности быстро и эффективно проверять основные гипотезы. Такой эксперимент позволяет выявить ключевые механизмы влияния позиционного кодирования на поведение модели без необходимости сразу разрабатывать сложные и ресурсоёмкие методы. PoC помогает определить, насколько выбранный подход перспективен и какие аспекты требуют доработки, что снижает риски и экономит время на последующих этапах исследования. Кроме того, PoC обеспечивает эмпирическую базудля обоснования дальнейших экспериментов и публикаций, демонстрируя практическую применимость концепции. В контексте позиционного вмешательства в LLM, где взаимодействие между позиционной",
+  "token_count": 93,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

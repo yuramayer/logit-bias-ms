@@ -1,0 +1,43 @@
+{
+  "run_id": "p04__early__rep1",
+  "prompt_id": "p04",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-03-21T16:59:29.896212+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сопоставь раннее и позднее применение logit bias в академическом стиле: укажи по одному потенциальному преимуществу и по одному ограничению, а затем сделай осторожный вывод.",
+  "full_output_text": "Раннее применение logit bias в задачах генеративного моделирования преимущественно использовалось для управления вероятностями отдельных токенов, что позволяло эффективно корректировать выходные данные моделей на начРаннее применение logit bias в задачах генеративного моделирования преимущественно использовалось для управления вероятностями отдельных токенов, что позволяло эффективно корректировать выходные данные моделей на начальных этапах обучения или при ограниченных вычислительных ресурсах. Однако такое применение часто сталкивалось с ограничениями в гибкости и масштабируемости, поскольку фиксированное смещение могло приводить к нежелательным искажениям в распределении вероятностей, особенно при работе с более сложными или многозначными задачами. В свою очередь, позднее использование logit bias интегрировалось",
+  "token_count": 93,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.010752688172043012
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.010752688172043012,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "length"
+}

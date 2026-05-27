@@ -1,0 +1,44 @@
+{
+  "run_id": "p02__early__rep4",
+  "prompt_id": "p02",
+  "condition": "early",
+  "repetition_id": 4,
+  "timestamp": "2026-03-21T17:18:20.814617+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй аргументированное объяснение того, почему proof-of-concept эксперимент допустим как первый шаг в исследовании позиционного вмешательства в LLM. Укажи два основания и одно ограничение.",
+  "full_output_text": "Proof-of-concept (PoC) эксперимент является оправданным первым шагом в исследовании позиционного вмешательства в большие языковые модели (LLM) по нескольким причинам. Во‑первых, PoC позволяетво-первых, PoC позволяет оперативно проверить базовые гипотезы и выявить потенциальные проблемы без значительных затрат ресурсов, что особенно важно при работе с масштабными и сложными системами, такими как LLM. Во-вторых, такой эксперимент способствует формированию первоначального понимания механизмов позиционного вмешательства, что создаёт основу для более детальных и масштабных исследований. Вместе с тем, PoC имеет ограничение — его результаты зачастую ограничены узким набором условий и не всегда могут быть обобщены на более сложные или разнообразные сценарии применения, что требует последующего проведения более комплексных и репрезентативных",
+  "token_count": 104,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.019230769230769232
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-вторых": 1,
+    "вместе с тем": 1
+  },
+  "total_marker_score": 0.019230769230769232,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "length"
+}

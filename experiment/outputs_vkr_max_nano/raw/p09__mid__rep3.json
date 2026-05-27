@@ -1,0 +1,44 @@
+{
+  "run_id": "p09__mid__rep3",
+  "prompt_id": "p09",
+  "condition": "mid",
+  "repetition_id": 3,
+  "timestamp": "2026-05-19T18:03:05.659381+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Подготовь краткий академический фрагмент о том, почему при сравнении control, early, mid и late важно отделять эффект вмешательства от обычной вариативности генерации. Приведи два аргумента.",
+  "full_output_text": "При сравнении групп, таких как контроль, ранняя, средняя и поздняя стадии, важно отделять эффект вмешательства от естественной вариативности генерации данных, поскольку это обеспечивает более точную интерпретацию результатов. Во-первых, различия, возникающие в рамках разных групп, могут быть обусловлены случайными колебаниями или внутренВо‑два́тых, отделение эффекта вмешательства от естественной вариативности позволяет избежать ложных выводов относительно эффективности вмешательства. Без учета случайных колебных факторов существует риск приписывания наблюдаемых изменений именно вмешательству, в то время как они могут быть обусловлены внутренней динамикой системы или случайными вариациями. Таким образом, тщательное разделение эффекта вмешательства и естественной вариативности повышает достоверность выводов и способствует более обоснованной оценке эффективности",
+  "token_count": 100,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.02
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.02,
+  "delta_p0": -0.013336,
+  "cosine_similarity": 0.683906,
+  "perplexity": 572.252379,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "p04__late__rep2",
+  "prompt_id": "p04",
+  "condition": "late",
+  "repetition_id": 2,
+  "timestamp": "2026-03-21T17:21:18.656250+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сопоставь раннее и позднее применение logit bias в академическом стиле: укажи по одному потенциальному преимуществу и по одному ограничению, а затем сделай осторожный вывод.",
+  "full_output_text": "Раннее применение logit bias в задачах генерации текста преимущественно фокусировалось на простом управлении вероятностями выбора токенов, что позволяло эффективно корректировать выход модели для достижения желаемых характеристик, например, повышения релевантности или снижения нежелательного контента. Однако такое раннее использование часто сталкивалось с ограничением в виде недостаточной гибкости и адаптивности, поскольку фиксированные смещения могли приводить к избыточной предсказуемости и ухудшению разнообразия ответов. В более поздних исследованиях logit bias интегрируется с более сложными методами обучения и контекстуальной адаптации модели, что позволяет более тонко и динамично управлять генерацией текста в зависимости от конкретных задач и контекста. Это расширяет возможности применения logit bias и снижает риск негативных",
+  "token_count": 101,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.009900990099009901
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.009900990099009901,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

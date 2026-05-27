@@ -1,0 +1,43 @@
+{
+  "run_id": "p04__mid__rep3",
+  "prompt_id": "p04",
+  "condition": "mid",
+  "repetition_id": 3,
+  "timestamp": "2026-03-21T17:20:59.325498+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сопоставь раннее и позднее применение logit bias в академическом стиле: укажи по одному потенциальному преимуществу и по одному ограничению, а затем сделай осторожный вывод.",
+  "full_output_text": "Раннее применение logit bias в задачах машинного обучения часто фокусировалось на улучшении интерпретируемости моделей и повышении точности классификации за счёт смещения вероятностей определённых классов. Одним из преимуществ такого подхода было более явное управление предсказаниями модели, что позволяло адаптировать еёповедение в условиях ограниченных данных или при наличии дисбаланса классов. Однако ограничением раннего применения являлась недостаточная гибкость метода: фиксированные смещения могли приводить к переобучению или снижению обобщающей способности модели на новых данных. В поздних исследованиях logit bias стали использовать более динамично, интегрируя его с адаптивными алгоритмами обучения и регуляризацией, что позволило смягчить указанные ограничения и повысить устойчивость моделей. Тем не менее, даже",
+  "token_count": 100,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.01
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.01,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "length"
+}

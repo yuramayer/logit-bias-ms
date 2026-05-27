@@ -1,0 +1,41 @@
+{
+  "run_id": "p06__late__rep4",
+  "prompt_id": "p06",
+  "condition": "late",
+  "repetition_id": 4,
+  "timestamp": "2026-05-19T18:00:46.768402+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Объясни, почему в эксперименте по управляемой генерации снижение частоты маркеров нужно интерпретировать вместе с сохранением смысла и качеством текста. Дай два критерия и краткий вывод.",
+  "full_output_text": "При оценке эффективности эксперимента по управляемой генерации текста снижение частоты маркеров должно рассматриваться в контексте сохранения смысла и качества, поскольку эти показатели напрямую отражают релевантность и читаемость сгенерированного материала. Первый критерий — смысловая целостность, которая подразумевает, что несмотря на уменьшение частоты маркеров, содержание текста сохраняет свою информативность и логическую связность. Второй критерий — качество текста, включающее грамматическую правильность, стилистическую согласованность и естественность выражения, что обеспечивает комфортное восприятие читателемТаким образом, снижение частоты маркеров не должно приводить к утрате смысловой насыщенности и читабельности текста. В противном случае можно прийти к ситуации, когда уменьшение маркерных элементов негатив",
+  "token_count": 92,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": -0.005055,
+  "cosine_similarity": 0.81321,
+  "perplexity": 596.695429,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

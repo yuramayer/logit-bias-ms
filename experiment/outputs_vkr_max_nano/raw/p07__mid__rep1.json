@@ -1,0 +1,43 @@
+{
+  "run_id": "p07__mid__rep1",
+  "prompt_id": "p07",
+  "condition": "mid",
+  "repetition_id": 1,
+  "timestamp": "2026-05-19T18:01:14.852221+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Дай осторожную исследовательскую оценку того, насколько пилотный эксперимент вообще может подтверждать гипотезу о позиционном эффекте вмешательства. Включи одну оговорку и один итоговый вывод.",
+  "full_output_text": "Пилотный эксперимент может служить ценным инструментом для предварительной оценки гипотезы о наличии позиционного эффекта вмешательства, однако его результаты следует интерпретировать с осторожностью. В условиях ограниченного объема выборки и возможных методологических ограничений, такие исследования зачастую предоставляют лишь ориентировочные данные, которые могут указыватьНа возможные направления дальнейших исследований и требуют подтверждения на более масштабных и репрезентативных выборках. Оговорка заключается в том, что пилотные эксперименты зачастую не обладают достаточной статистической мощностью для выявления значимых эффектов, что ограничивает их способность подтверждать гипотезу о позиционном эффекте с высокой степенью уверенности. Итогово, хотя пилотные исследования могут служить важным этапом в формировании и уточнении гипотезы, их",
+  "token_count": 98,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.01020408163265306
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.01020408163265306,
+  "delta_p0": -0.00498,
+  "cosine_similarity": 0.642923,
+  "perplexity": 608.953096,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

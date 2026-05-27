@@ -1,0 +1,43 @@
+{
+  "run_id": "p03__early__rep1",
+  "prompt_id": "p03",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-03-21T16:39:14.518791+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши краткий аналитический фрагмент о том, почему позиция применения logit bias может влиять на дискурсивную организацию ответа сильнее, чем сама интенсивность вмешательства.",
+  "full_output_text": "Позиция применения logit bias в процессе генерации текста оказывает более значимое влияние на дискурсивную организацию ответа, чем интенсивность вмешательства, поскольку она определяет контекстуальную направленленность модели на конкретном этапе формирования высказывания. В отличие от интенсивности, которая лишь усиливает или ослабляет влияние bias, позиция его внедрения способна изменить семантические и прагматические связи между частями текста, формируя структуру аргументации и логику изложения. Таким образом, даже слабое вмешательство, применённое в ключевой точке дискурса, может кардинально изменить ход рассуждения, тогда как сильное воздействие вне контекста зачастую приводит лишь к поверхностным изменениям стиля или лексики без существенного влияния",
+  "token_count": 92,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.010869565217391304
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "таким образом": 1
+  },
+  "total_marker_score": 0.010869565217391304,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "length"
+}

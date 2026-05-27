@@ -1,0 +1,43 @@
+{
+  "run_id": "p10__early__rep3",
+  "prompt_id": "p10",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-05-19T18:03:42.138439+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши осторожное академическое рассуждение о том, почему чрезмерное подавление дискурсивных маркеров может ухудшать читаемость текста. Укажи один риск и одно возможное преимущество.",
+  "full_output_text": "Чрезмерное подавление дискурсивных маркерів в тексте может негативно сказаться на его читаемости и восприятии. Одним из рисков является снижение связности и логической последовательности, что затрудняет понимание связных переходов между идеями и аргументами, а читателю становится сложнее проследить структуру текста. В то же время, умеренное использование дискурсивных маркеров способствует ясности и помогает выделить ключевые моменты, облегчая ориентацию в материале. Таким образом, баланс в применении таких средств играет важную роль: чрезмерное их подавление может снизить когерентность текста, в то время как их разумное использование способствует более эффективной коммуникации и восприятию информации.",
+  "token_count": 90,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.011111111111111112
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "таким образом": 1
+  },
+  "total_marker_score": 0.011111111111111112,
+  "delta_p0": -0.016162,
+  "cosine_similarity": 0.58486,
+  "perplexity": 715.413162,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "stop"
+}

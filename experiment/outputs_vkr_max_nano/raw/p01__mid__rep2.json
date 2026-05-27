@@ -1,0 +1,41 @@
+{
+  "run_id": "p01__mid__rep2",
+  "prompt_id": "p01",
+  "condition": "mid",
+  "repetition_id": 2,
+  "timestamp": "2026-05-19T17:56:07.397019+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему строгая формализация метрик важна для исследований управляемой генерации текста. Дай два аргумента и короткий вывод.",
+  "full_output_text": "Строгая формализация метрик в исследованиях управляемой генерации текста играет ключевую роль, поскольку она обеспечивает объективность и воспроизводимость оценки качества моделей. Первый аргумент заключается в том, что четко определенные метрики позволяют стандартизировать сравнение различных подходов, что способствует развитию научного диалога и выявлениюэффективных методов. Второй аргумент связан с необходимостью точного измерения соответствия генерируемого текста заданным критериям управляемости; без формализБез формализованных метрик трудно обеспечить объективную оценку степени достижения поставленных целей, что особенно важно при разработке систем, ориентированных на конкретные задачи или стили. В результате, строгая формализация метрик способствует повышению надежности и прозрачности исследований, а также облегчает автоматизированное тестирование и оптимизацию моделей. В целом",
+  "token_count": 100,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": -0.010138,
+  "cosine_similarity": 0.777516,
+  "perplexity": 574.682762,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "p03__mid__rep1",
+  "prompt_id": "p03",
+  "condition": "mid",
+  "repetition_id": 1,
+  "timestamp": "2026-03-21T16:39:24.202900+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши краткий аналитический фрагмент о том, почему позиция применения logit bias может влиять на дискурсивную организацию ответа сильнее, чем сама интенсивность вмешательства.",
+  "full_output_text": "Позиция применения logit bias в процессе генерации текста оказывает более значительное влияние на дискурсивную организацию ответа, чем интенсивность вмешательства, поскольку она определяет контекстуальную направленность и структурное размещение ключевых элементов внутри высказывания. Введение смещения на ранних этапах генерацииПозднее применение logit bias, даже при высокой интенсивности, может лишь частично корректировать уже сформированную структуру, не изменяя фундаментальных логическихлогических связей и тематической последовательности. Таким образом, позиция вмешательства задаёт рамки для дальнейшего развития дискурса, формируя основу для когерентного и связного изложения мыслей. В отличие от этого, интенсивность воздействия влияет преимущественно на степень выраженности конкретных лексических или сем",
+  "token_count": 92,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.010869565217391304
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "таким образом": 1
+  },
+  "total_marker_score": 0.010869565217391304,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "length"
+}

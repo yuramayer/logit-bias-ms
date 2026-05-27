@@ -1,0 +1,43 @@
+{
+  "run_id": "p01__early__rep1",
+  "prompt_id": "p01",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-05-19T17:55:53.091870+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему строгая формализация метрик важна для исследований управляемой генерации текста. Дай два аргумента и короткий вывод.",
+  "full_output_text": "Строгая формализация метрик играет важную роль в исследованиях управляемой генерации текста по нескольким причинам. Во-первых, она обеспечивает объективность и воспроизводимость оценки качества генерируемого контВо-вторых, четко определённые метрики позволяют систематически сравнивать различные модели и подходы, выявляя их сильные и слабые стороны. Это способствует развитию более эффективных методов управления генерацией текста и повышает научную строгость исследований. В целом, строгая формализация метрик способствует повышению надежности и прозрачности результатов, что является важным условием для дальнейшего прогресса в области управляемой генерации текста.",
+  "token_count": 77,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.012987012987012988
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1
+  },
+  "total_marker_score": 0.012987012987012988,
+  "delta_p0": 0.002849,
+  "cosine_similarity": 0.72657,
+  "perplexity": 519.611778,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "stop"
+}

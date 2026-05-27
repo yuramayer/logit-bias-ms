@@ -1,0 +1,41 @@
+{
+  "run_id": "p08__mid__rep2",
+  "prompt_id": "p08",
+  "condition": "mid",
+  "repetition_id": 2,
+  "timestamp": "2026-05-19T18:02:03.450541+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему токенизация и многотокенные маркеры усложняют применение logit bias. Укажи два следствия для дизайна эксперимента.",
+  "full_output_text": "Токенизация и использование многотокенных маркеров усложняют применение logit bias, поскольку эти процессы увеличивают сложность интерпретации и корректировки вероятностных распределений модели. Токенизация разбивает текст на меньшие единицы, что может привести к неоднозначности в определении влияния конкретных настроеклогитов на итоговое поведение модели. Многотокенные маркеры же объединяют несколько токенов в один смысловой блок, что усложняет точечное управление вероятностями отдельных элементов, поскольку изменение логитов для одного токена может иметь непредсказуемые последствия для целого маркера. В результате, при проектировании экспериментов по применению logit bias необходимо учитывать, что влияние на отдельные токены не всегда линейно и однозначно отражается на итоговом тексте",
+  "token_count": 95,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": -0.005264,
+  "cosine_similarity": 0.762536,
+  "perplexity": 533.390796,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

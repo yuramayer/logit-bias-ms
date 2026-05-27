@@ -1,0 +1,45 @@
+{
+  "run_id": "p09__control__rep4",
+  "prompt_id": "p09",
+  "condition": "control",
+  "repetition_id": 4,
+  "timestamp": "2026-03-21T17:27:17.170749+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Подготовь краткий академический фрагмент о том, почему при сравнении control, early, mid и late важно отделять эффект вмешательства от обычной вариативности генерации. Приведи два аргумента.",
+  "full_output_text": "При сравнении групп control, early, mid и late критически важно отделять эффект вмешательства от естественной вариативности генерации, чтобы избежать ошибочных выводов о причинно-следственных связях. Во-первых, без учета базовой вариативности сложно определить, обусловлены ли наблюдаемые различия именно вмешательством или же случайными колебаниями, характерными для исследуемого процесса. Во-вторых, игнорирование естественной изменчивости может привести к переоценке эффективности вмешательства, что снижает надежность и воспроизводимость результатов. Таким образом, корректное разделение эффектов позволяет повысить внутреннюю валидность исследования и обеспечивает более точное понимание динамики изменений в изучаемых группах.",
+  "token_count": 81,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 3,
+      "normalized": 0.037037037037037035
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1,
+    "во-вторых": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.037037037037037035,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

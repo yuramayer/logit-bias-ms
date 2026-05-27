@@ -1,0 +1,43 @@
+{
+  "run_id": "p11__late__rep1",
+  "prompt_id": "p11",
+  "condition": "late",
+  "repetition_id": 1,
+  "timestamp": "2026-05-19T18:05:27.034057+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй краткий аналитический комментарий о том, почему результаты эксперимента по позиционному вмешательству следует интерпретировать с учетом выбора модели и параметров декодирования.",
+  "full_output_text": "Результаты эксперимента по позиционному вмешательству требуют осторожной интерпретации, поскольку они во многом зависят от выбранной модели и параметров декодирования. Модель, определяющая архитектуру и алгоритмы обработки данных, задает рамки возможных интерпретаций и чувствительна к гиперпараметрам, что может влиять на выявляемые эффекты. Например, различия в настройках декодирования, такие как выбор функции активации или пороговых значений, могут привести к разным результатам, что затрудняет однозначное связывание наблюдаемых изменений с самимфеноменом. Кроме того, вариативность в параметрах декодирования может маскировать или искажать истинные эффекты вмешательства, что требует учета при интерпретации результатов. В связи с",
+  "token_count": 88,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.011363636363636364
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "кроме того": 1
+  },
+  "total_marker_score": 0.011363636363636364,
+  "delta_p0": -0.003947,
+  "cosine_similarity": 0.537527,
+  "perplexity": 657.176251,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

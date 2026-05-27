@@ -1,0 +1,45 @@
+{
+  "run_id": "p09__mid__rep4",
+  "prompt_id": "p09",
+  "condition": "mid",
+  "repetition_id": 4,
+  "timestamp": "2026-03-21T17:27:53.219678+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Подготовь краткий академический фрагмент о том, почему при сравнении control, early, mid и late важно отделять эффект вмешательства от обычной вариативности генерации. Приведи два аргумента.",
+  "full_output_text": "При сравнении групп control, early, mid и late критически важно отделять эффект вмешательства от естественной вариативности генерации, чтобы избежать ошибочных выводов о причинно-следственных связях. Во-первых, без учета базовой вариативности сложно определить, обусловлены ли наблюдаемые различия именно вмешательством или же случайнымифлуктуациями внутри каждой группы. Во-вторых, игнорирование естественной вариативности может привести к переоценке значимости эффекта вмешательства ивследствие этого к неверным рекомендациям по применению или интерпретации результатов. Таким образом, адекватное моделирование и статистический контроль вариативности позволяют повысить надежность и валидность выводов, обеспечивая более точное понимание влияния временных факторов вмешательства на изучаемые показатели.",
+  "token_count": 89,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 3,
+      "normalized": 0.033707865168539325
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1,
+    "во-вторых": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.033707865168539325,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "stop"
+}

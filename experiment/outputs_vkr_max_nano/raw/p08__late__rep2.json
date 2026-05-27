@@ -1,0 +1,43 @@
+{
+  "run_id": "p08__late__rep2",
+  "prompt_id": "p08",
+  "condition": "late",
+  "repetition_id": 2,
+  "timestamp": "2026-05-19T18:02:17.342206+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему токенизация и многотокенные маркеры усложняют применение logit bias. Укажи два следствия для дизайна эксперимента.",
+  "full_output_text": "Токенизация и использование многотокенных маркеров усложняют применение logit bias, поскольку эти процессы увеличивают сложность интерпретации и корректировки вероятностных распределений модели. Токенизация разбивает текст на меньшие единицы, что может привести к неоднозначности в определении влияния конкретных токенов на итоговое решение модели, особенно при наличии многотокенных маркеров, которые объединяют несколько слов или символов в один токен. Это затрудняет точечное управление вероятностями и, следовательно, применение bias, поскольку изменение вероятности одного токена может иметь непредсказуеманное влияние на связанные токены или маркеры. В результате возникает необходимость более сложных методов для точной настройки вероятностных распределений и учета контекста при использовании logit bias. В контексте дизайна",
+  "token_count": 99,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.010101010101010102
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "следовательно": 1
+  },
+  "total_marker_score": 0.010101010101010102,
+  "delta_p0": 0.004837,
+  "cosine_similarity": 0.778377,
+  "perplexity": 542.843449,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "p04__late__rep3",
+  "prompt_id": "p04",
+  "condition": "late",
+  "repetition_id": 3,
+  "timestamp": "2026-03-21T17:00:07.720450+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сопоставь раннее и позднее применение logit bias в академическом стиле: укажи по одному потенциальному преимуществу и по одному ограничению, а затем сделай осторожный вывод.",
+  "full_output_text": "Раннее применение logit bias в задачах обработки естественного языка преимущественно фокусировалось на управлении генерацией текста для повышения релевантности и точности моделей. Одним из ключевых преимуществ такого подхода было улучшение интерпретируемости результатов за счёт явного смещения вероятностей определённых токенов, что позволяло более точно контролировать выход модели. Однако ограничением ранних методов являлась их ограниченная гибкость и адаптивность к сложным контекстам, что снижало эффективность в динамичных или многозначных задачах. В поздних исследованиях logit biasВ поздних исследованиях logit bias стал применяться более избирательно и контекстуально, что позволило повысить адаптивность моделей к разнообразным сценариям использования. Это расширение функцион",
+  "token_count": 93,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.010752688172043012
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.010752688172043012,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

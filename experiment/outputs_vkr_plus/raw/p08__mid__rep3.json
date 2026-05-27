@@ -1,0 +1,43 @@
+{
+  "run_id": "p08__mid__rep3",
+  "prompt_id": "p08",
+  "condition": "mid",
+  "repetition_id": 3,
+  "timestamp": "2026-03-21T17:03:51.212540+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему токенизация и многотокенные маркеры усложняют применение logit bias. Укажи два следствия для дизайна эксперимента.",
+  "full_output_text": "Токенизация и использование многотокенных маркеров усложняют применение logit bias, поскольку logit bias воздействует на вероятности отдельных токенов, а не на последовательности токенов целиком. В случае многотокенных маркеров изменение вероятности одного токена не гарантирует желаемогоэффекта для полного маркера, так как итоговая вероятность зависит от совместного распределения всех токенов в последовательности. Это приводит к необходимости учитывать взаимодействиямежду токенами и усложняет точное управление генерацией текста с помощью logit bias. В результате, при проектировании экспериментов необходимо учитывать, что во-первых, корректировка вероятностей должна производиться с учётом всей последовательности токенов, что требует более сложных методов или обходных решений. Во-в",
+  "token_count": 93,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.010752688172043012
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1
+  },
+  "total_marker_score": 0.010752688172043012,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "length"
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "p08__early__rep3",
+  "prompt_id": "p08",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-05-19T18:01:55.473817+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему токенизация и многотокенные маркеры усложняют применение logit bias. Укажи два следствия для дизайна эксперимента.",
+  "full_output_text": "Токенизация и использование многотокенных маркеров усложняют применение logit bias вследствие увеличения сложности интерпретации и манипуляции вероятностных распределений на уровне токеновЭто связано с тем, что изменение вероятности одного токена может иметь непредсказуемые и косвенные последствия для связанных токенов, особенно в случае многотокенных маркеров, где один смысловой блок представлен несколькими токенами. В результате, при настройке logit bias необходимо учитывать сложные взаимосвязи между токенами, что усложняет точное воздействие на желаемые выходы модели. В контексте экспериментального дизайна это означает, что для оценки эффективности bias требуется более сложная аналитика, включающая анализ взаимодействий между токенами, а не только их индивидуальных вероятностей.",
+  "token_count": 95,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 1,
+      "normalized": 0.010526315789473684
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "это означает": 1
+  },
+  "total_marker_score": 0.010526315789473684,
+  "delta_p0": 0.005263,
+  "cosine_similarity": 0.552731,
+  "perplexity": 749.515084,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

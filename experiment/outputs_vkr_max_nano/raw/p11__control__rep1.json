@@ -1,0 +1,41 @@
+{
+  "run_id": "p11__control__rep1",
+  "prompt_id": "p11",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-05-19T18:04:36.835539+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй краткий аналитический комментарий о том, почему результаты эксперимента по позиционному вмешательству следует интерпретировать с учетом выбора модели и параметров декодирования.",
+  "full_output_text": "Результаты эксперимента по позиционному вмешательству требуют осторожной интерпретации, поскольку они во многом зависят от выбранной модели и параметров декодирования. Модель, определяющая структуру и механизмы обработки информации, задает рамки для понимания влияния вмешательства, и различные модели могут давать противоположные выводы о значимости и характере этого влияния. Аналогично, параметры декодирования, такие как алгоритмы и пороговые значения, могут существенно влиять на интерпретацию полученных данных, поскольку они определяют, каким образом сигналы интерпретируются и классифицируются. В результате, без учета этих факторов существует риск переоценки или недооценки эффекта вмешательства, что подчеркивает необходимость проведения дополнительных исследований с использованием различных моделей и параметров для обеспечения",
+  "token_count": 97,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": -0.01531,
+  "cosine_similarity": 1.0,
+  "perplexity": 451.178996,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

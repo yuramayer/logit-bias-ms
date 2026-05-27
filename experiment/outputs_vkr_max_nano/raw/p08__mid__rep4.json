@@ -1,0 +1,41 @@
+{
+  "run_id": "p08__mid__rep4",
+  "prompt_id": "p08",
+  "condition": "mid",
+  "repetition_id": 4,
+  "timestamp": "2026-05-19T18:02:10.153361+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему токенизация и многотокенные маркеры усложняют применение logit bias. Укажи два следствия для дизайна эксперимента.",
+  "full_output_text": "Токенизация и использование многотокенных маркеров усложняют применение logit bias, поскольку эти процессы увеличивают сложность интерпретации и управления вероятностями отдельных элементов текста. Токенизация разбивает текст на меньшие единицы, что может привести к неоднозначности в сопоставлении логит-значений с конкретными сегментами и их семантической нагрузкой. Многотокенные маркеры же объединяют несколько токенов в один логический блок, что усложняет управление логит-значениями, поскольку изменение вероятности одного токена или маркера может непредсказуемо влиять на связанные компоненты, особенно в контексте сложных многотокенных структур. В результате, при проектировании экспериментов необходимо учитывать, что корректировка логит-значений для отдельных токенов",
+  "token_count": 88,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": -0.005264,
+  "cosine_similarity": 0.699741,
+  "perplexity": 541.674106,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

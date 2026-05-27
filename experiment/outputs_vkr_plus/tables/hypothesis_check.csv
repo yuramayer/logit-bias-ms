@@ -1,0 +1,9 @@
+prompt_id,early_abs_delta_mean,mid_abs_delta_mean,late_abs_delta_mean,delta_strength_ranking,early_minus_late_abs_delta,early_minus_mid_abs_delta
+p01,0.00573,0.004928,0.007294,late > early > mid,-0.001564,0.000802
+p02,0.000402,0.00104,0.00712,late > mid > early,-0.006718,-0.000639
+p03,0.008045,0.007233,0.000892,early > mid > late,0.007153,0.000812
+p04,0.004822,0.007172,0.00355,mid > early > late,0.001272,-0.00235
+p05,0.000873,0.005062,0.000812,mid > early > late,6.1e-05,-0.004189
+p06,0.00018,0.000653,0.003842,late > mid > early,-0.003661,-0.000472
+p07,0.009529,0.008647,0.003161,early > mid > late,0.006368,0.000883
+p08,0.003844,0.007022,0.004061,mid > late > early,-0.000217,-0.003178

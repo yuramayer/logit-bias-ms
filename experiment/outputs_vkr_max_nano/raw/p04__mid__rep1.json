@@ -1,0 +1,43 @@
+{
+  "run_id": "p04__mid__rep1",
+  "prompt_id": "p04",
+  "condition": "mid",
+  "repetition_id": 1,
+  "timestamp": "2026-05-19T17:58:35.709866+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сопоставь раннее и позднее применение logit bias в академическом стиле: укажи по одному потенциальному преимуществу и по одному ограничению, а затем сделай осторожный вывод.",
+  "full_output_text": "Раннее применение логит-биаса в моделировании вероятностных исходов зачастую позволяло более интуитивно интерпретировать влияние отдельных признаков на результат, что способствовало развитию теоретических основ и более прозрачной настройке моделей. Однако, в этом случае, одним из ограничений являлась склонность к переобучениюЭто могло негативно сказаться на обобщающей способности модели при работе на новых данных. В поздних подходах к применению логит-биаса зачастую делаетсяакцент на автоматизации и масштабируемости, что позволило значительно ускорить процесс обучения и повысить эффективность обработки больших объемов данных. Однако, такой подход зачастую снижает интерпретируемость модели, поскольку автоматизированные методы могут скрывать сложные взаимодействия между признаками, что затрудняет понимание причин принятия решений. В целом,",
+  "token_count": 99,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.020202020202020204
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 2
+  },
+  "total_marker_score": 0.020202020202020204,
+  "delta_p0": 0.007541,
+  "cosine_similarity": 0.472134,
+  "perplexity": 966.88017,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

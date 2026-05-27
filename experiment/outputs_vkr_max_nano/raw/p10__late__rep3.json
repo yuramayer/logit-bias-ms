@@ -1,0 +1,41 @@
+{
+  "run_id": "p10__late__rep3",
+  "prompt_id": "p10",
+  "condition": "late",
+  "repetition_id": 3,
+  "timestamp": "2026-05-19T18:04:31.533266+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши осторожное академическое рассуждение о том, почему чрезмерное подавление дискурсивных маркеров может ухудшать читаемость текста. Укажи один риск и одно возможное преимущество.",
+  "full_output_text": "Чрезмерное подавление дискурсивных маркеров в тексте может негативно сказаться на его читаемости, поскольку такие маркеры выполняют важную функцию организации и связности высказывания, помогая читателю ориентироваться в логике изложения. Их избыточное исключение может привести к снижению явности структурных связей, что затрудняет восприятие последовательности аргументов и взаимосвязей между идеями. Одним из рисков такого подхода является потеря ясности и прозрачности текста, что особенно важно в академической коммуникации, где точность и логическая последовательность играютключевую роль. В то же время существует возможность использования минимизации дискурсивных маркеров для создания более лаконичного и стилистически насыщенного текста. Такой подход может способствовать более компактному выражению",
+  "token_count": 96,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": -0.027273,
+  "cosine_similarity": 0.684996,
+  "perplexity": 551.647234,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

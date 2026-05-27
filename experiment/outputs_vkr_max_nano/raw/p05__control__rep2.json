@@ -1,0 +1,44 @@
+{
+  "run_id": "p05__control__rep2",
+  "prompt_id": "p05",
+  "condition": "control",
+  "repetition_id": 2,
+  "timestamp": "2026-05-19T17:59:16.658360+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши сдержанное методологическое объяснение того, почему дискурсивные маркеры можно использовать как операциональный прокси дискурсивного тона, но нельзя считать исчерпывающим описанием тона.",
+  "full_output_text": "Использование дискурсивных маркеров в качестве операционального прокси дискурсивного тона обусловлено их способностью фиксировать определённые коммуникативные установки, эмоциональные оттенки и уровни формальности, что делает их полезными для количественного анализа и сравнительных исследований. Однако следует учитывать, что дискурсивные маркеры представляют лишь один аспект тональности и зачастую не отражают её полноту, поскольку тон включает в себя широкий спектр элементов, таких как интонация, контекст, невербальные сигналы и субъективные интерпретации. Поэтому, несмотря на практическую ценность дискурсивных маркеров как инструментов операционализации, их использование не может служить исчерпывающим описанием дискурсивного тона, поскольку оно рискует упустить важные нюансы",
+  "token_count": 90,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.022222222222222223
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1,
+    "поэтому": 1
+  },
+  "total_marker_score": 0.022222222222222223,
+  "delta_p0": 0.00064,
+  "cosine_similarity": 1.0,
+  "perplexity": 427.992937,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

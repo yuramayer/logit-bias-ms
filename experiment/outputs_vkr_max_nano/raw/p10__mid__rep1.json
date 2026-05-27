@@ -1,0 +1,43 @@
+{
+  "run_id": "p10__mid__rep1",
+  "prompt_id": "p10",
+  "condition": "mid",
+  "repetition_id": 1,
+  "timestamp": "2026-05-19T18:03:49.002995+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши осторожное академическое рассуждение о том, почему чрезмерное подавление дискурсивных маркеров может ухудшать читаемость текста. Укажи один риск и одно возможное преимущество.",
+  "full_output_text": "Чрезмерное подавление дискурсивных маркеров в тексте может негативно сказаться на его читаемости, поскольку такие маркеры выполняют важную функцию организации и связности высказывания, помогая читателю ориентироваться в логике изложения. Их избыточное исключение может привести к утрате структурныхи затруднить восприятие связных связей между отдельными частями текста. Однако существует и потенциальное преимущество в ограничении использования дискурсивных маркерівЭто преимущество заключается в повышении ясности и лаконичности текста, поскольку сокращение маркеров может способствовать более прямому и сжатому изложению мыслей, что важно в ситуациях, требующих быстрого восприятия информации. Однако необходимо учитывать, что чрезмерное их исключение рискует сделать текст слишком разрозн",
+  "token_count": 94,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.02127659574468085
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 2
+  },
+  "total_marker_score": 0.02127659574468085,
+  "delta_p0": -0.005996,
+  "cosine_similarity": 0.684799,
+  "perplexity": 612.315751,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

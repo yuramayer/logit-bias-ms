@@ -1,0 +1,45 @@
+{
+  "run_id": "p02__mid__rep1",
+  "prompt_id": "p02",
+  "condition": "mid",
+  "repetition_id": 1,
+  "timestamp": "2026-03-21T16:57:58.017110+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй аргументированное объяснение того, почему proof-of-concept эксперимент допустим как первый шаг в исследовании позиционного вмешательства в LLM. Укажи два основания и одно ограничение.",
+  "full_output_text": "Proof-of-concept (PoC) эксперимент является оправданным первым шагом в исследовании позиционного вмешательства в большие языковые модели (LLM) благодаря своей способности быстро проверить основную гипотезу и выявить ключевые механизмы работы модели. Во-первых, PoC позволяет минимизировать затраты времени и ресурсовВо-вторых, такой эксперимент способствует выявлению потенциальных проблем и ограничений метода на ранней стадии, что позволяет скорректировать дальнейшие исследования и повыситьэффективность последующих этапов. Однако важно учитывать, что PoC эксперимент обладает ограниченной масштабируемостью и не всегда отражает сложность реальных сценариев применения позиционного вмешательства в LLM. Поэтому результаты PoC следует воспринимать как предварительные, требующие дальнейшей валидации и расширенного анализа в более комплекс",
+  "token_count": 96,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 3,
+      "normalized": 0.03125
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1,
+    "однако": 1,
+    "поэтому": 1
+  },
+  "total_marker_score": 0.03125,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "length"
+}

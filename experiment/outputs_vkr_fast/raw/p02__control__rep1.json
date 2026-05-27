@@ -1,0 +1,43 @@
+{
+  "run_id": "p02__control__rep1",
+  "prompt_id": "p02",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-03-21T16:38:13.779110+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй аргументированное объяснение того, почему proof-of-concept эксперимент допустим как первый шаг в исследовании позиционного вмешательства в LLM.",
+  "full_output_text": "Proof-of-concept (PoC) эксперимент является оправданным первым шагом в исследовании позиционного вмешательства в большие языковые модели (LLM) благодаря своей способности быстро и эффективно проверить основную гипотезу без значительных затрат ресурсов. Такой эксперимент позволяет выявить ключевые механизмы влияния позиционного кодирования на поведение модели, обеспечивая первоначальную верификацию идеи на ограниченном объёме данных и упрощённой архитектуре. Это снижает риски и помогает определить целесообразность дальнейших масштабных исследований. Кроме того, PoC способствует выявлению потенциальных проблем и ограничений подхода на ранней стадии, что важно для корректировки методологии и повышения качества последующих экспериментов. Таким образом, proof-of-concept эксперимент служит необходимой основой для систематического и",
+  "token_count": 97,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.010309278350515464
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "таким образом": 1
+  },
+  "total_marker_score": 0.010309278350515464,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "length"
+}

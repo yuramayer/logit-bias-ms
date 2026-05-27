@@ -1,0 +1,45 @@
+{
+  "run_id": "p02__control__rep1",
+  "prompt_id": "p02",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-05-19T17:56:37.130052+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй аргументированное объяснение того, почему proof-of-concept эксперимент допустим как первый шаг в исследовании позиционного вмешательства в LLM. Укажи два основания и одно ограничение.",
+  "full_output_text": "Proof-of-concept эксперимент является допустимым первым шагом в исследовании позиционного вмешательства в больших языковых моделях (LLM), поскольку он позволяет предварительно оценить потенциальную эффективность и целесообразность предлагаемого подхода без необходимости проведения масштабных и дорогостоящих исследований. Во-первых, такой эксперимент служит быстрым и относительно недорогим инструментом для выявления возможных проблем и определения направлений дальнейших исследований, что особенно важно в условиях ограниченных ресурсов. Во-вторых, он способствует формированию гипотез и уточнению методологических аспектов, что повышает шансы на успешное проведение более сложных и масштабных экспериментов в будущем. Однако, ограничением данного подхода является то, что результаты proof-of-concept могут не полностью отражать реальную эффективность вмешательства в условиях более сложных и вариативных сценариев использования L",
+  "token_count": 107,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 3,
+      "normalized": 0.028037383177570093
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1,
+    "во-вторых": 1,
+    "однако": 1
+  },
+  "total_marker_score": 0.028037383177570093,
+  "delta_p0": 0.009165,
+  "cosine_similarity": 1.0,
+  "perplexity": 431.476379,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

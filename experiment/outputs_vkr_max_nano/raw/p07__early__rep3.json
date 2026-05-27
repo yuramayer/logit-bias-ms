@@ -1,0 +1,43 @@
+{
+  "run_id": "p07__early__rep3",
+  "prompt_id": "p07",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-05-19T18:01:08.092887+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Дай осторожную исследовательскую оценку того, насколько пилотный эксперимент вообще может подтверждать гипотезу о позиционном эффекте вмешательства. Включи одну оговорку и один итоговый вывод.",
+  "full_output_text": "Пилотный эксперимент может служить полезным инструментом для предварительной оценки гипотезы о наличии позиционного эффекта вмешательства; однако его ограниченность заключается в малом объеме выборки и возможных случайных факторов, что затрудняет обоснованные обобщения полученных результатов. В связи с этим, результаты пилотного исследования скорее могут служить ориентиром для дальнейших, более масштабных экспериментов, чем окончательным подтверждением гипотезы. Итогово, несмотря на ценность пилотных данных для определения направленности исследования и выявления возможных проблем, их использование в качестве окончательного подтверждения позиционного эффекта требует осторожности и дополнительной проверки на более репрезентативных выборках.",
+  "token_count": 84,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.011904761904761904
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.011904761904761904,
+  "delta_p0": -0.003279,
+  "cosine_similarity": 0.527502,
+  "perplexity": 639.848467,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,4 @@
+prompt_id,early_abs_delta_mean,mid_abs_delta_mean,late_abs_delta_mean,delta_strength_ranking,early_minus_late_abs_delta,early_minus_mid_abs_delta
+p01,0.011766,0.011766,0.011766,early > mid > late,0.0,0.0
+p02,0.010155,0.010155,0.010155,early > mid > late,0.0,0.0
+p03,0.000639,0.000533,0.000528,early > mid > late,0.000111,0.000106

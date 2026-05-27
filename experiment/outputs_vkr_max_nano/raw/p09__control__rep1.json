@@ -1,0 +1,45 @@
+{
+  "run_id": "p09__control__rep1",
+  "prompt_id": "p09",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-05-19T18:02:24.060264+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Подготовь краткий академический фрагмент о том, почему при сравнении control, early, mid и late важно отделять эффект вмешательства от обычной вариативности генерации. Приведи два аргумента.",
+  "full_output_text": "При сравнении групп, таких как контроль, ранняя, средняя и поздняя стадии, важно отделять эффект вмешательства от естественной вариативности генерации, поскольку это обеспечивает более точную интерпретацию результатов. Во-первых, различия, обусловленные случайной вариативностью, могут маскировать или искажать истинный эффект вмешательства, что приводит к ложным выводам о его эффективности или неэффективности. Во-вторых, выделение эффекта вмешательства позволяет повысить внутреннюю валидность исследования, обеспечивая уверенность в том, что наблюдаемые различия связаны именно с исследуемым фактором, а не с случайными колебаниями или внешними переменными. Таким образом, аккуратное разделение этих двух аспектов критически важно для получения достоверных и обоснованных результатов в рамках сравнительных исследований.",
+  "token_count": 96,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 3,
+      "normalized": 0.03125
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1,
+    "во-вторых": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.03125,
+  "delta_p0": -0.002086,
+  "cosine_similarity": 1.0,
+  "perplexity": 375.980926,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "p02__control__rep2",
+  "prompt_id": "p02",
+  "condition": "control",
+  "repetition_id": 2,
+  "timestamp": "2026-03-21T16:28:50.774409+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Подготовь короткий академический фрагмент о том, почему ранние этапы генерации могут задавать дискурсивную рамку последующего ответа.",
+  "full_output_text": "Ранние этапы генерации текста играют ключевую роль в формировании дискурсивной рамки последующего ответа, поскольку именно на этом этапе закладываются основные тематические и структурные ориентиры. В процессе начального выбора лексики, синтаксиса и семантических связей создаётся контекст, который направляет дальнейшее развитие высказывания, обеспечивая когерентность и целостность текста. Таким образом, начальные фрагменты функционируют как своего рода «якорь», определяющий тональность, стиль и логическую последовательность, что способствует формированию связного и адекватного коммуникативного акта.",
+  "token_count": 68,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.014705882352941176
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "таким образом": 1
+  },
+  "total_marker_score": 0.014705882352941176,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

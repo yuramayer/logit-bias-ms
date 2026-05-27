@@ -1,0 +1,41 @@
+{
+  "run_id": "p08__late__rep4",
+  "prompt_id": "p08",
+  "condition": "late",
+  "repetition_id": 4,
+  "timestamp": "2026-05-19T18:02:21.942833+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему токенизация и многотокенные маркеры усложняют применение logit bias. Укажи два следствия для дизайна эксперимента.",
+  "full_output_text": "Токенизация и использование многотокенных маркеров усложняют применение logit bias, поскольку эти процессы увеличивают сложность интерпретации и управления вероятностными распределениями модели. Токенизация, особенно при использовании сложных алгоритмов, может приводить к размыванию границ между смысловыми единицами, что затрудняет точечное регулирование вероятностей отдельных токенов. Многотокенные маркеры, объединяющие несколько слов или фраз, создают дополнительные уровни абстракции, усложняя задачу назначения и корректировки bias, поскольку изменения в логитах могут иметьсложности в предугадываемости и управлении их влиянием на итоговый вывод модели. В результате возникает необходимость более тонкой настройки bias для каждого компонента многотокенного маркера и учета взаимодейств",
+  "token_count": 90,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": -0.005264,
+  "cosine_similarity": 0.58189,
+  "perplexity": 751.302371,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

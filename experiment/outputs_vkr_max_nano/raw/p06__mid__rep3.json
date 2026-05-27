@@ -1,0 +1,43 @@
+{
+  "run_id": "p06__mid__rep3",
+  "prompt_id": "p06",
+  "condition": "mid",
+  "repetition_id": 3,
+  "timestamp": "2026-05-19T18:00:26.934847+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Объясни, почему в эксперименте по управляемой генерации снижение частоты маркеров нужно интерпретировать вместе с сохранением смысла и качеством текста. Дай два критерия и краткий вывод.",
+  "full_output_text": "В эксперименте по управляемой генерации снижение частоты маркеров должно рассматриваться в контексте сохранения смысла и качества текста, поскольку эти аспекты напрямую связаны с адекватностью и информативностью генерируемого контента. Первый критерий — смысловая целостность: снижение частоты маркеров не должно приводиться к искажениям или потере ключевых смысловых элементов текста. Второй критерий — лингвистическое качество: снижение частоты маркеров не должноприводить к ухудшению стилистической связности, грамматической правильности или читабельности текста. Важно учитывать, что маркеры выполняют функцию структурирования и выделения информации, поэтому их снижение должно происходить аккуратно, чтобы не нарушить целостность коммуникации. В целом, снижение частоты маркеров",
+  "token_count": 90,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.011111111111111112
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "поэтому": 1
+  },
+  "total_marker_score": 0.011111111111111112,
+  "delta_p0": 0.006056,
+  "cosine_similarity": 0.643202,
+  "perplexity": 594.075305,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "length"
+}

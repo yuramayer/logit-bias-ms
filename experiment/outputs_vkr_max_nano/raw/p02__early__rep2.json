@@ -1,0 +1,43 @@
+{
+  "run_id": "p02__early__rep2",
+  "prompt_id": "p02",
+  "condition": "early",
+  "repetition_id": 2,
+  "timestamp": "2026-05-19T17:56:47.914948+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй аргументированное объяснение того, почему proof-of-concept эксперимент допустим как первый шаг в исследовании позиционного вмешательства в LLM. Укажи два основания и одно ограничение.",
+  "full_output_text": "Proof-of-concept эксперимент является допустимой отправной точкой в исследовании позиционного вмешательства в больших языковых моделях (LLM), поскольку он позволяет предварительно оценить базовую эффективность и техническую осуществимость предлагаемность вмешательства без необходимости проведения масштабных и затратных исследований. Такой подход способствует быстрому выявлению потенциальных преимуществ и проблем, что важно на ранних этапах разработки новых методов. Однако, одним из ограничений proof-of-concept является его ограниченность в обобщаемости результатов: полученные данные могут не полностью отражать поведение модели в реальных условиях или при более сложных сценариях применения, что требует дальнейших исследований для подтверждения и расширения первоначальных выводов.",
+  "token_count": 91,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.01098901098901099
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.01098901098901099,
+  "delta_p0": -0.007883,
+  "cosine_similarity": 0.672122,
+  "perplexity": 682.109502,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off | delta_p0_mode=text_frequency_proxy | similarity_method=token_count_cosine | perplexity_method=control_bigram_proxy",
+  "finish_reason": "stop"
+}

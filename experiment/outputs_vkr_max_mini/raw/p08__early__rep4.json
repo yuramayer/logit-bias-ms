@@ -1,0 +1,44 @@
+{
+  "run_id": "p08__early__rep4",
+  "prompt_id": "p08",
+  "condition": "early",
+  "repetition_id": 4,
+  "timestamp": "2026-03-21T17:26:16.975965+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши краткое академическое объяснение того, почему токенизация и многотокенные маркеры усложняют применение logit bias. Укажи два следствия для дизайна эксперимента.",
+  "full_output_text": "Токенизация и использование многотокенных маркеров усложняют применение logit bias из-за разбиения текста на отдельные токены и неоднозначности их границ. Logit bias традиционноориентирован на корректировку вероятностей отдельных токенов, однако когда маркер состоит из нескольких токенов, необходимо учитывать совместное влияние bias на последовательность, что значительно усложняет управление генерацией модели. Кроме того, токенизация может варьироваться в зависимости от модели и контекста, что снижает переносимость и предсказуемость применения logit bias. В результате для дизайна эксперимента важно тщательно выбирать маркеры с минимальным числом токенов и учитывать специфику токенизатора, чтобы обеспечить более точное и контролируемое воздействие на генерацию. Также рекомендуется проводить предварительный анализ распределения ток",
+  "token_count": 99,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.020202020202020204
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "кроме того": 1,
+    "однако": 1
+  },
+  "total_marker_score": 0.020202020202020204,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "length"
+}
