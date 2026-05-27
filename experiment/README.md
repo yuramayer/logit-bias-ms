@@ -1,28 +1,28 @@
 # Эксперимент
 
-Эта директория содержит код, конфиги, промпты, словари маркеров и уже полученные результаты эксперимента по позиционному применению `logit_bias`.
+Здесь лежит код эксперимента, конфиги, промпты, словари маркеров и результаты.
 
 ## Что делает код
 
-Конвейер:
+Код делает простой pipeline:
 
-1. читает конфиг, промпты и словарь маркеров;
-2. запускает условия `control`, `early`, `mid`, `late`;
-3. применяет `segment_approximation` для позиционного включения `logit_bias`;
-4. сохраняет `raw`-результаты по каждому запуску;
-5. считает `delta_p0`, similarity и proxy-perplexity;
-6. экспортирует итоговые таблицы в `outputs_*/tables/`.
+1. читает конфиг;
+2. читает промпты и словарь маркеров;
+3. запускает `control`, `early`, `mid`, `late`;
+4. сохраняет каждый ответ в `raw/*.json`;
+5. считает метрики;
+6. пишет таблицы в `outputs_*/tables/`.
 
-## Основные профили
+## Профили
 
-| Профиль | Назначение |
+| Профиль | Для чего |
 |---|---|
 | `config_vkr_fast.yaml` | быстрый пилот |
-| `config_vkr_plus.yaml` | расширенный промежуточный профиль |
-| `config_vkr_max_mini.yaml` | основной профиль на `gpt-4.1-mini` |
-| `config_vkr_max_nano.yaml` | проверка переносимости на `gpt-4.1-nano` |
+| `config_vkr_plus.yaml` | расширенный пилот |
+| `config_vkr_max_mini.yaml` | основной запуск на `gpt-4.1-mini` |
+| `config_vkr_max_nano.yaml` | проверка на `gpt-4.1-nano` |
 
-В финальном анализе ВКР основной упор сделан на `outputs_vkr_max_mini`, а `outputs_vkr_max_nano` используется как дополнительная проверка устойчивости схемы.
+Основные результаты для ВКР лежат в `outputs_vkr_max_mini`. Проверка на второй модели лежит в `outputs_vkr_max_nano`.
 
 ## Запуск
 
@@ -33,28 +33,28 @@ export OPENAI_API_KEY=...
 python3 experiment/run_experiment.py --config experiment/config_vkr_max_mini.yaml
 ```
 
-Для второй модели:
+Вторая модель:
 
 ```bash
 export OPENAI_API_KEY=...
 python3 experiment/run_experiment.py --config experiment/config_vkr_max_nano.yaml
 ```
 
-## Артефакты
+## Что лежит в outputs
 
-В каждом `outputs_*` профиле:
+В каждом `outputs_*`:
 
-- `raw/*.json` - один файл на запуск;
-- `tables/raw_runs.csv` - плоская таблица всех запусков;
-- `tables/raw_runs.jsonl` - полные raw-строки;
-- `tables/aggregated_by_condition.csv` - агрегаты по условиям;
-- `tables/hypothesis_check.csv` - prompt-level таблица для проверки гипотез;
+- `raw/*.json` - один файл на один ответ;
+- `tables/raw_runs.csv` - все запуски в одной таблице;
+- `tables/raw_runs.jsonl` - полные записи запусков;
+- `tables/aggregated_by_condition.csv` - средние значения по режимам;
+- `tables/hypothesis_check.csv` - проверка по промптам;
 - `tables/marker_category_comparison.csv` - вклад категорий маркеров;
-- `logs/run_manifest.json` - короткий manifest профиля.
+- `logs/run_manifest.json` - короткое описание запуска.
 
-## Ограничения реализации
+## Ограничения
 
-- `logit_bias` включается по сегментам, а не на каждом токене.
-- `delta_p0` считается как `text_frequency_proxy`.
-- Similarity считается как `token_count_cosine`.
-- `perplexity` является proxy на основе биграммной модели по `control`-ответам.
+- Bias включается по сегментам, не на каждом токене.
+- `delta_p0` - частотный proxy по маркерам.
+- Similarity - `token_count_cosine`.
+- `perplexity` - proxy на биграммах из `control`-ответов.
