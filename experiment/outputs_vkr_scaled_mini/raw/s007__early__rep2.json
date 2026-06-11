@@ -1,0 +1,43 @@
+{
+  "run_id": "s007__early__rep2",
+  "prompt_id": "s007",
+  "condition": "early",
+  "repetition_id": 2,
+  "timestamp": "2026-06-11T17:21:04.834424+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о позиционном применении logit bias. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Позиционное применение logit bias представляет собой методику целенаправленного смещения вероятностей выбора моделей в зависимости от позиции токена в последовательности. Такой подход позволяет более гибко управлять генерацией текста и корректировать поведение модели в контексте конкретного задания, что особенно важно при работе с длинными текстами или при необходимости учитывать структурные особенности языка. Однако следует учитывать, что чрезмерное или некорректное использование позиционного logit bias может привести к нежелательным искажениям в распределении вероятностей, снижая естественность и когерентность генерируемого текста. В итоге, позиционное применение logit bias требует взвешенного подхода и тщательной настройки, чтобы сохранить баланс между управляемостью модели и качеством выходных данных.",
+  "token_count": 97,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.010309278350515464
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.010309278350515464,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

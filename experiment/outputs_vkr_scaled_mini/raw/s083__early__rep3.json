@@ -1,0 +1,44 @@
+{
+  "run_id": "s083__early__rep3",
+  "prompt_id": "s083",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:27:50.649375+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Подготовь методологический комментарий о логико-структурных связках в академическом ответе. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Логико-структурные связки в академическом ответе играют важную роль в обеспечении когерентности и последовательности изложения мысли. Их использование способствует ясному и логичному переходу между идеями и аргументами, что облегчаетпонимание текста читателем и способствует формированию убедительной аргументации. Однако чрезмерное или неуместное применение таких связок может привести к излишней формализации речи, снижая её естественность и затрудняя восприятие. Таким образом, несмотря на очевидные преимущества в структурировании текста, важно использовать логико-структурные связки умеренно и осознанно, учитывая контекст и целевую аудиторию.",
+  "token_count": 75,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.02666666666666667
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.02666666666666667,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,45 @@
+{
+  "run_id": "s036__early__rep2",
+  "prompt_id": "s036",
+  "condition": "early",
+  "repetition_id": 2,
+  "timestamp": "2026-06-11T17:23:11.988160+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй краткое академическое объяснение о различии между prompt engineering и decoding-time control. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Prompt engineering и decoding-time control представляют собой различные подходы к управлению поведением языковых моделей. Первый метод заключается в тщательном формулировании входного запроса для достижения желаемого результата без изменения самой модели. Это позволяет использовать уже обученную модель безвмешательства в процесс генерации текста, что делает его более простым и гибким в применении. Во-вторых, decoding-time control воздействует непосредственно на алгоритм генерации, изменяя вероятности выбора слов на каждом шаге, что позволяет более точно регулировать стиль, длину или содержание ответа, но требует доступа к внутренним параметрам модели и увеличивает вычислительную сложность. Таким образом, prompt engineering ориентирован на подготовку входных данных для косвенного управления, тогда как decoding-time control обеспечивает прямое влияние на процесс генерации, что делает эти методы взаимодополняющими в задачах адаптации языковых моделей.",
+  "token_count": 118,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.01694915254237288
+    },
+    "argument_development": {
+      "count": 1,
+      "normalized": 0.00847457627118644
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-вторых": 1,
+    "таким образом": 1,
+    "это позволяет": 1
+  },
+  "total_marker_score": 0.025423728813559324,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

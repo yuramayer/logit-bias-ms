@@ -1,0 +1,43 @@
+{
+  "run_id": "s007__control__rep1",
+  "prompt_id": "s007",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:21:03.056596+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о позиционном применении logit bias. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Позиционное применение logit bias представляет собой метод, направленный на избирательное смещение вероятностей генерации определённых токенов в языковых моделях, что позволяет более точно контролировать выходные данные. Однако следует учитывать, что эффективность данного подхода во многом зависит от контекста и структуры модели, а также от корректного выбора величины смещения, поскольку чрезмерное или некорректное применение может привести к ухудшению качества генерации и снижению естественности текста. В итоге, позиционное использование logit bias является перспективным инструментом для тонкой настройки моделей, но требует тщательной настройки и оценки, чтобы избежать негативных последствий и сохранить баланс между управляемостью и адекватностью ответов.",
+  "token_count": 93,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.010752688172043012
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.010752688172043012,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

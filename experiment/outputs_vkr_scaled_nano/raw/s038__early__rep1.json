@@ -1,0 +1,43 @@
+{
+  "run_id": "s038__early__rep1",
+  "prompt_id": "s038",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:32:30.436960+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Подготовь методологический комментарий о различии между prompt engineering и decoding-time control. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Методологический анализ различий между prompt engineering и decoding-time control свидетельствует о том, что оба подхода служат оптимизации взаимодействия человека и языковой модели в процессе генерации текста. Prompt engineering предполагает предварительную настройку входных запросов для достижения желенного результата, что позволяет формировать контекст и направлять модель на определённые темы или стили. В то время как decoding-time control осуществляется во время процесса генерации, предоставляя возможность динамически регулировать параметры, такие как температура или стратегия поиска, что способствует более гибкому и адаптивному формированию текста. Одним из существенных преимуществ decoding-time control является возможность быстрого реагирования на изменяющиеся требования, что повышает универсальность использования модели. Однако, его ограничением является повышенная сложность реализации и необходимость наличия дополнительных механизмов для эффективного управления процессом генерации, что может усложнить интеграцию в практические системы и увеличить вычислительные затраты.",
+  "token_count": 125,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.008
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.008,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

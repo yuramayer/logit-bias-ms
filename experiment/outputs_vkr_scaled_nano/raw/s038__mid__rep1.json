@@ -1,0 +1,43 @@
+{
+  "run_id": "s038__mid__rep1",
+  "prompt_id": "s038",
+  "condition": "mid",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:32:31.836805+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Подготовь методологический комментарий о различии между prompt engineering и decoding-time control. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Методологический анализ различий между prompt engineering и decoding-time control свидетельствует о том, что оба подхода служат оптимизации генеративных моделей, однако реализуются на разных этапах процесса. Prompt engineering предполагает предварительную настройку входных запросов с целью формирования желаемого результата, что позволяет добиться высокой точности и релевантности ответов за счет тщательного конструирования контекста. В то жеВ то же время decoding-time control осуществляется непосредственно во время генерации текста и предполагает динамическое управление процессом вывода посредством различных техник регулировки параметров модели или использования дополнительных условий. Одним из существенныхОдним из существенных преимуществ decoding-time control является его гибкость и возможность адаптации генерации в реальном времени, что особенно важно при необходимости учета контекста или изменения требований к результату на лету. Однако, ограничением данного подхода является его повышенная сложность и вычислительная затратность, поскольку требует постоянного мониторинга и корректировки процесса генерации, что может негативно сказываться на эффективности и скорости получения",
+  "token_count": 140,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.014285714285714285
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 2
+  },
+  "total_marker_score": 0.014285714285714285,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "length"
+}

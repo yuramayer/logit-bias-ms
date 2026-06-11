@@ -1,0 +1,43 @@
+{
+  "run_id": "s077__control__rep2",
+  "prompt_id": "s077",
+  "condition": "control",
+  "repetition_id": 2,
+  "timestamp": "2026-06-11T17:27:25.032095+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о проверке гипотез на prompt-level уровне. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Проверка гипотез на уровне prompt-level представляет собой важный этап в оценке эффективности и надежности моделей обработки естественного языка, поскольку именно формулировка запроса существенно влияет на качество и релевантность получаемого ответа. Однако следует учитывать, что результаты, получаемые при тестировании на уровне отдельных промптов, могут быть подвержены значительной вариативности из-за неоднозначности языка и контекста, что ограничивает обобщаемость выводов. Тем не менее, несмотря на эти ограничения, анализ на prompt-level позволяет выявить конкретные слабые места и потенциальные направления для оптимизации модели, что делает данный подход ценным инструментом в комплексной оценке и развитии систем искусственного интеллекта.",
+  "token_count": 91,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.01098901098901099
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.01098901098901099,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="460.00" y="36.00" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#111827">Effect strength vs semantic similarity</text>
+<line x1="90.00" y1="430.00" x2="850.00" y2="430.00" stroke="#111827" stroke-width="1.5"/>
+<line x1="90.00" y1="70.00" x2="90.00" y2="430.00" stroke="#111827" stroke-width="1.5"/>
+<text x="470.00" y="485.00" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#111827">abs(mean delta P0)</text>
+<text x="24.00" y="250.00" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#111827" transform="rotate(-90 24 250)">cosine similarity</text>
+<text x="90.00" y="452.00" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0</text>
+<text x="850.00" y="452.00" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.0032</text>
+<text x="80.00" y="430.00" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#111827">0.61</text>
+<text x="80.00" y="70.00" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#111827">0.73</text>
+<circle cx="850.00" cy="369.22" r="8.00" fill="#0f766e"/>
+<text x="860.00" y="361.22" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">mini:early</text>
+<circle cx="833.13" cy="219.86" r="8.00" fill="#2563eb"/>
+<text x="843.13" y="211.86" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">mini:mid</text>
+<circle cx="316.72" cy="130.78" r="8.00" fill="#b45309"/>
+<text x="326.72" y="122.78" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">mini:late</text>
+<circle cx="634.93" cy="359.57" r="8.00" fill="#0f766e"/>
+<text x="644.93" y="351.57" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">nano:early</text>
+<circle cx="182.92" cy="240.35" r="8.00" fill="#2563eb"/>
+<text x="192.92" y="232.35" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">nano:mid</text>
+<circle cx="90.95" cy="177.85" r="8.00" fill="#b45309"/>
+<text x="100.95" y="169.85" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">nano:late</text>
+<circle cx="742.35" cy="364.39" r="8.00" fill="#0f766e"/>
+<text x="752.35" y="356.39" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">combined:early</text>
+<circle cx="508.02" cy="230.11" r="8.00" fill="#2563eb"/>
+<text x="518.02" y="222.11" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">combined:mid</text>
+<circle cx="203.83" cy="154.32" r="8.00" fill="#b45309"/>
+<text x="213.83" y="146.32" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">combined:late</text>
+</svg>

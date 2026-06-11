@@ -1,0 +1,43 @@
+{
+  "run_id": "s067__early__rep2",
+  "prompt_id": "s067",
+  "condition": "early",
+  "repetition_id": 2,
+  "timestamp": "2026-06-11T17:34:15.207588+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши аналитический фрагмент о интерпретации отрицательного logit bias. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Отрицательный logit bias может интерпретироваться как свидетельство предубеждения модели в пользу более вероятных исходов или классов. Такой результат указывает на то, что модель склоняется к снижению вероятности конкретных событий или категорий по сравнению с ихпредставленными в обучающих данных. Однако важно учитывать, что отрицательный logit bias не всегда однозначно свидетельствует о предвзятости модели, поскольку он может отражать адаптацию к особенностям распределения данных или попытку избежать переобучения на редких случаях. В итоге, интерпретация отрицательного logit bias требует осторожности и комплексного анализа, поскольку подобные показатели могут иметь как смысловые, так и статистические причины, и их однозначное понимание зависит от контекста задачи и характеристик обучающей выборки.",
+  "token_count": 102,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.00980392156862745
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.00980392156862745,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

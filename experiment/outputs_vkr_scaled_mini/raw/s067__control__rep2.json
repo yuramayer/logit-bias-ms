@@ -1,0 +1,44 @@
+{
+  "run_id": "s067__control__rep2",
+  "prompt_id": "s067",
+  "condition": "control",
+  "repetition_id": 2,
+  "timestamp": "2026-06-11T17:26:41.049720+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о интерпретации отрицательного logit bias. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Отрицательный logit bias в контексте моделей машинного обучения может интерпретироваться как тенденция системы снижать вероятность определённых классов или исходов, что отражает предвзятость в сторону их недооценки. Однако следует учитывать, что такой показатель не всегда однозначно свидетельствует о системной ошибке или несправедливости, поскольку он может быть обусловлен спецификой обучающих данных или архитектурными особенностями модели. Таким образом, отрицательный logit bias требует комплексного анализа с учётом контекста применения и характеристик выборки, чтобы избежать преждевременных выводов о качестве или этичности модели.",
+  "token_count": 77,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.025974025974025976
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.025974025974025976,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

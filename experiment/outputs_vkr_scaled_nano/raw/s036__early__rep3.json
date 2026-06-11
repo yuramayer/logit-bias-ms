@@ -1,0 +1,41 @@
+{
+  "run_id": "s036__early__rep3",
+  "prompt_id": "s036",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:32:23.968681+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй краткое академическое объяснение о различии между prompt engineering и decoding-time control. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей. Первый включает в себя предварительную настройку входных данных (prompt), что позволяет формировать желаемый отклик модели за счет тщательного проектирования контекста, тогда как decoding-time control осуществляется непосредственно во время генерации текста, позволяя динамически корректировать параметры и направления вывода модели. Первый подход более статичен и требует предварительной подготовки, что может ограничивать гибкость и адаптивность, тогда как второй обеспечивает большую оперативность и возможность реагировать на изменяющиеся условия в процессе генерации. В целом, различие между ними заключается в уровне вмешательства и времени применения методов: prompt engineering предполагает настройку до начала генерации, а decoding-time control — вмешательство в процессе, что делает их применение в различных контекстах более или менее предпочтительным в зависимости от требований к точности и гибкости.",
+  "token_count": 127,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

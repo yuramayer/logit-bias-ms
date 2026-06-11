@@ -1,0 +1,44 @@
+{
+  "run_id": "s038__control__rep3",
+  "prompt_id": "s038",
+  "condition": "control",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:23:19.782041+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Подготовь методологический комментарий о различии между prompt engineering и decoding-time control. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Различие между prompt engineering и decoding-time control заключается в этапах и способах управления генерацией текста в языковых моделях. Prompt engineering предполагает формулировку входного запроса таким образом, чтобы направить модель к желаемому ответу ещё до начала генерации, опираясь на предварительно заданный контекст или инструкцию. В отличие от этого, decoding-time control осуществляется непосредственно во время процесса генерации, используя методы модификации вероятностей выбора токенов, такие как температурное сэмплирование или наложение ограничений. Одним из преимуществ prompt engineering является относительная простота и отсутствие необходимости вмешательства в алгоритм генерации, что делает его доступным для широкого круга пользователей. Вместе с тем, ограничением этого подхода является зависимость от качества и формулировки запроса, что может привести к непредсказуемым результатам. Decoding-time control, в свою очередь, обеспечивает более точное и гибкое управление выходом модели, но требует глубокого понимания внутренней работы генератора и",
+  "token_count": 131,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.015267175572519083
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "вместе с тем": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.015267175572519083,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "length"
+}

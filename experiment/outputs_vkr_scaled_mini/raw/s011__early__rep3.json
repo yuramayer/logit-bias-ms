@@ -1,0 +1,45 @@
+{
+  "run_id": "s011__early__rep3",
+  "prompt_id": "s011",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:21:22.702893+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй краткое академическое объяснение о дискурсивных маркерах как наблюдаемом слое тона. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Дискурсивные маркеры рассматриваются как наблюдаемый слой тона в коммуникации ввиду их функции организации и структурирования высказывания. Во-первых, они сигнализируют смену темы или отношение говорящего к содержанию речи, что проявляеттоническую окраску высказывания и способствует восприятию информации слушателем. Во-вторых, дискурсивные маркеры выполняют регулятивную роль в диалоге, указывая на паузы, уточнения или переходы, что отражается в интонационных особенностях речи. Таким образом, дискурсивные маркеры не только структурируют содержание, но и формируют тональную организацию дискурса, что подтверждает их статус наблюдаемого слоя тона в устной коммуникации.",
+  "token_count": 80,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 3,
+      "normalized": 0.0375
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1,
+    "во-вторых": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.0375,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

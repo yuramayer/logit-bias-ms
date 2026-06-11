@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="460.00" y="36.00" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#111827">Mean delta P0 by condition</text>
+<line x1="70.00" y1="70.00" x2="850.00" y2="70.00" stroke="#111827" stroke-width="1.5"/>
+<rect x="120.00" y="70.00" width="42.00" height="380.00" fill="#0f766e" rx="2"/>
+<text x="141.00" y="472.00" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#111827">-0.0032</text>
+<rect x="176.00" y="70.00" width="42.00" height="371.56" fill="#2563eb" rx="2"/>
+<text x="197.00" y="463.56" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#111827">-0.0031</text>
+<rect x="232.00" y="70.00" width="42.00" height="113.36" fill="#b45309" rx="2"/>
+<text x="253.00" y="205.36" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#111827">-0.0010</text>
+<text x="190.00" y="492.00" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#111827">scaled mini</text>
+<rect x="350.00" y="70.00" width="42.00" height="272.46" fill="#0f766e" rx="2"/>
+<text x="371.00" y="364.46" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#111827">-0.0023</text>
+<rect x="406.00" y="70.00" width="42.00" height="46.46" fill="#2563eb" rx="2"/>
+<text x="427.00" y="138.46" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#111827">-0.0004</text>
+<rect x="462.00" y="70.00" width="42.00" height="0.48" fill="#b45309" rx="2"/>
+<text x="483.00" y="92.48" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#111827">-0.0000</text>
+<text x="420.00" y="492.00" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#111827">scaled nano</text>
+<rect x="580.00" y="70.00" width="42.00" height="326.17" fill="#0f766e" rx="2"/>
+<text x="601.00" y="418.17" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#111827">-0.0027</text>
+<rect x="636.00" y="70.00" width="42.00" height="209.01" fill="#2563eb" rx="2"/>
+<text x="657.00" y="301.01" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#111827">-0.0018</text>
+<rect x="692.00" y="70.00" width="42.00" height="56.92" fill="#b45309" rx="2"/>
+<text x="713.00" y="148.92" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="middle" fill="#111827">-0.0005</text>
+<text x="650.00" y="492.00" font-family="Arial, sans-serif" font-size="16" font-weight="600" text-anchor="middle" fill="#111827">combined</text>
+<rect x="690.00" y="73.00" width="16.00" height="16.00" fill="#0f766e" rx="2"/>
+<text x="714.00" y="86.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">early</text>
+<rect x="690.00" y="99.00" width="16.00" height="16.00" fill="#2563eb" rx="2"/>
+<text x="714.00" y="112.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">mid</text>
+<rect x="690.00" y="125.00" width="16.00" height="16.00" fill="#b45309" rx="2"/>
+<text x="714.00" y="138.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">late</text>
+<text x="72.00" y="72.00" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#111827">0</text>
+<text x="72.00" y="458.00" font-family="Arial, sans-serif" font-size="13" font-weight="400" text-anchor="start" fill="#111827">-0.0032</text>
+</svg>

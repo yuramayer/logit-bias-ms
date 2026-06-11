@@ -1,0 +1,41 @@
+{
+  "run_id": "s081__early__rep1",
+  "prompt_id": "s081",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:35:10.092036+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй краткое академическое объяснение о логико-структурных связках в академическом ответе. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Логико-структурные связки в академическом ответе выполняют важную функцию организации мысли и обеспечивают последовательность изложения. Во‑первых, они способствуют ясности и логической связности текста за счет соединения отдельных частей аргументации, что облегчает восприятие и понимание основной идеи читателем. Во‑вторых, использование таких связок способствует формализации мышления, позволяя структурировать рассуждения и подчеркнуть причинно-следственные связи между аргументами. В результате, логико-структурные связки играют ключевую роль в создании убедительных и стройных академических текстов, обеспечивая их логическую целостность и повышая эффективность коммуникации.",
+  "token_count": 76,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

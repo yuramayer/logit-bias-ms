@@ -1,0 +1,44 @@
+{
+  "run_id": "s036__control__rep3",
+  "prompt_id": "s036",
+  "condition": "control",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:23:11.228212+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй краткое академическое объяснение о различии между prompt engineering и decoding-time control. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей. Первый метод заключается в тщательном формулировании входного запроса (промпта) с целью направить модель на генерацию желаемого ответа, что требует глубокого понимания структуры и особенностей модели. Во-вторых, decoding-time control осуществляется непосредственно во время процесса генерации текста, изменяя параметры декодирования, такие как температура или жадность, чтобы контролировать разнообразие и точность выходных данных. Таким образом, prompt engineering воздействует на входные данные, формируя контекст, тогда как decoding-time control регулирует процесс вывода, влияя на динамику генерации. В итоге, оба подхода дополняют друг друга, обеспечивая более гибкое и точное управление результатами языковых моделей.",
+  "token_count": 102,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.0196078431372549
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-вторых": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.0196078431372549,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

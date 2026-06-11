@@ -1,0 +1,43 @@
+{
+  "run_id": "s036__control__rep2",
+  "prompt_id": "s036",
+  "condition": "control",
+  "repetition_id": 2,
+  "timestamp": "2026-06-11T17:23:09.838207+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй краткое академическое объяснение о различии между prompt engineering и decoding-time control. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей. Первый метод фокусируется на формулировке входного запроса таким образом, чтобы модель генерировала желаемый ответ, опираясь на заранее заданные инструкции или контекст. Во втором случае контроль осуществляется непосредственно во время процесса генерации текста, например, через модификацию алгоритмов выборки или применение ограничений к вероятностному распределению слов. Таким образом, prompt engineering воздействует на модель до начала генерации, формируя её интерпретацию задачи, тогда как decoding-time control влияет на сам процесс генерации, корректируя выходные данные в реальном времени. В итоге, эти подходы дополняют друг друга, предоставляя разные уровни и моменты управления генерацией текста.",
+  "token_count": 103,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.019417475728155338
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "таким образом": 2
+  },
+  "total_marker_score": 0.019417475728155338,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "s038__control__rep1",
+  "prompt_id": "s038",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:32:29.594612+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Подготовь методологический комментарий о различии между prompt engineering и decoding-time control. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Методология prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей. Prompt engineering предполагает создание заранее подготовленных запросов, которые формируют контекст и направляют модель на достижение желаемого результата, что обеспечивает предсказуемость и контроль на этапе формирования входных данных. В отличие от этого, decoding-time control осуществляется непосредственно во время генерации текста, позволяя динамически корректировать процесс и учитывать дополнительные параметры, что способствует большей гибкости и адаптивности. Одним из существенных преимуществ decoding-time control является возможность более точной настройки поведения модели в реальном времени, однако его ограничением выступает повышенная сложность реализации и необходимость в дополнительных вычислительных ресурсах, что может снижать эффективность и масштабируемость данного метода.",
+  "token_count": 106,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.009433962264150943
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.009433962264150943,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

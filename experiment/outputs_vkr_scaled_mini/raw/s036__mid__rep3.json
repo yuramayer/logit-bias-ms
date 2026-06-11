@@ -1,0 +1,44 @@
+{
+  "run_id": "s036__mid__rep3",
+  "prompt_id": "s036",
+  "condition": "mid",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:23:12.211657+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй краткое академическое объяснение о различии между prompt engineering и decoding-time control. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей. Первый метод заключается в тщательном формулировании входного запроса (промпта) с целью направить модель на генерацию желаемого ответа, что требует глубокого понимания структуры и особенностей модели. Во-вторых, decoding-time control осуществляется непосредственно во время процесса генерации текста, изменяя параметрывыбора следующего слова или токена для достижения заданных критериев качества или стиля. Таким образом, prompt engineering воздействует на модель до начала генерации и опирается на ее внутренние представления иповедения, тогда как decoding-time control обеспечивает более гибкое и динамическое управление на этапе вывода, позволяя адаптировать результаты без изменения исходного запроса. В итоге, prompt engineering более ориентирован на предварительную настройку взаимодействия с моделью, тогда как decoding-time control предоставляет инструменты для непосредственной модификации генерации, что делает эти подходы взаимодополняющими в практике работы с языков",
+  "token_count": 132,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.015151515151515152
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-вторых": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.015151515151515152,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "length"
+}

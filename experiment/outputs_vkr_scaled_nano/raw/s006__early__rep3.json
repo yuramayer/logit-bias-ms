@@ -1,0 +1,41 @@
+{
+  "run_id": "s006__early__rep3",
+  "prompt_id": "s006",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:30:43.340665+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй краткое академическое объяснение о позиционном применении logit bias. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Позиционное применение logit bias в моделях машинного обучения позволяет более точно управлять вероятностями генерации конкретных токенов в заданных позициях текста. Одним из ключевых аргументов в пользу такого подхода является возможность повышения релевантностирезультатов генерации, что особенно важно в задачах, требующих высокой точности и контекстуальной релевантности. Вторым аргументом является снижение вероятности появления нежелательных или ошибочных токенов, что способствует повышению качества и надежности создаваемого текста. В целом, позиционное применение logit bias представляет собой эффективный инструмент для тонкой настройки поведения языковых моделей, обеспечивая более целенаправленное управление процессом генерации и повышая её практическую ценность в различных приложениях.",
+  "token_count": 92,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

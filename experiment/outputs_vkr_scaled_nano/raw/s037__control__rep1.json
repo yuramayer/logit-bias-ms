@@ -1,0 +1,43 @@
+{
+  "run_id": "s037__control__rep1",
+  "prompt_id": "s037",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:32:25.861770+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши аналитический фрагмент о различии между prompt engineering и decoding-time control. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Тезис заключается в том, что prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей, при этом первый фокусируется на предварительной формулировке входных данных, а второй — на динамическом регулировании процесса генерации. Важно отметить, что prompt engineering предполагает создание тщательно сконструированных подсказок, которые задают модель определённый контекст или стиль, тогда как decoding-time control включает использование методов, таких как настройка параметров генерации или применение дополнительных алгоритмов, для корректировки результата в реальном времени. Следует подчеркнуть, что эти подходы не являются взаимоисключающими, а скорее дополняют друг друга, позволяя более гибко управлять выходными данными модели. В итоге, различие между ними заключается в уровне вмешательства: prompt engineering работает на этапе подготовки входных данных, а decoding-time control — на этапе непосредственной генерации, что определяет их применение в различных сценариях и задачах.",
+  "token_count": 128,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 1,
+      "normalized": 0.0078125
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 1,
+      "normalized": 0.0078125
+    }
+  },
+  "marker_counts": {
+    "важно отметить": 1
+  },
+  "total_marker_score": 0.015625,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

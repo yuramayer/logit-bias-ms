@@ -21,8 +21,11 @@
 | `config_vkr_plus.yaml` | расширенный пилот |
 | `config_vkr_max_mini.yaml` | основной запуск на `gpt-4.1-mini` |
 | `config_vkr_max_nano.yaml` | проверка на `gpt-4.1-nano` |
+| `config_vkr_scaled_mini.yaml` | масштабированный запуск на `gpt-4.1-mini`: 100 промптов, 1200 генераций |
+| `config_vkr_scaled_nano.yaml` | масштабированный запуск на `gpt-4.1-nano`: 100 промптов, 1200 генераций |
 
 Основные результаты для ВКР лежат в `outputs_vkr_max_mini`. Проверка на второй модели лежит в `outputs_vkr_max_nano`.
+Масштабированная проверка перед защитой лежит в `outputs_vkr_scaled_mini` и `outputs_vkr_scaled_nano`.
 
 ## Запуск
 
@@ -39,6 +42,43 @@ python3 experiment/run_experiment.py --config experiment/config_vkr_max_mini.yam
 export OPENAI_API_KEY=...
 python3 experiment/run_experiment.py --config experiment/config_vkr_max_nano.yaml
 ```
+
+Масштабированный запуск через resumable parallel runner:
+
+```bash
+python3 experiment/tools/generate_scaled_prompts.py
+
+python3 -m experiment.src.run_experiment_parallel \
+  --config experiment/config_vkr_scaled_mini.yaml \
+  --workers 10 \
+  --retries 4 \
+  --progress-every 25
+
+python3 -m experiment.src.run_experiment_parallel \
+  --config experiment/config_vkr_scaled_nano.yaml \
+  --workers 10 \
+  --retries 4 \
+  --progress-every 25
+
+python3 experiment/tools/summarize_scaled_results.py
+```
+
+## Масштабированный результат
+
+- 100 русскоязычных академических промптов.
+- 4 условия: `control`, `early`, `mid`, `late`.
+- 3 повтора на каждое сочетание.
+- 2 модели: `gpt-4.1-mini`, `gpt-4.1-nano`.
+- 2400 новых генераций, `error_count = 0`.
+
+Основные материалы:
+
+- `SCALED_EXPERIMENT.md` - описание scaled-эксперимента;
+- `SCALED_PRESENTATION_BLOCK.md` - готовый блок для слайдов;
+- `scaled_defense_summary.md` - краткая сводка;
+- `scaled_profile_summary.csv`, `scaled_prompt_wins.csv`, `profile_comparison_scaled.csv`;
+- `figures/scaled_delta_p0.svg`, `figures/scaled_similarity_tradeoff.svg`,
+  `figures/scaled_prompt_wins.svg`.
 
 ## Что лежит в outputs
 

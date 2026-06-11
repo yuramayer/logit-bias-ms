@@ -1,0 +1,43 @@
+{
+  "run_id": "s069__early__rep3",
+  "prompt_id": "s069",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:34:22.984198+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Дай осторожную исследовательскую оценку о интерпретации отрицательного logit bias. Покажи, почему результат нельзя читать изолированно. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Интерпретация отрицательного logit bias требует осторожности и внимательного анализа контекста модели и данных. Такой результат может свидетельствовать как об отсутствии предрасположенности модели к конкретному классу или признаку, так и об особенностях обучающегонабора данных, что затрудняет однозначное заключение о внутренней логике модели. Важно учитывать, что отрицательное значение logit bias не обязательно указывает на слабую или неправильную работу модели, а может отражать лишь статистические особенности обучающего материала или особенности архитектуры. Поэтому интерпретацию таких результатов следует осуществлять в совокупности с другими метриками и контекстом исследования, избегая односторонних выводов, чтобы не искажать понимание поведения модели и не делать поспешных обобщений.",
+  "token_count": 96,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.010416666666666666
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "поэтому": 1
+  },
+  "total_marker_score": 0.010416666666666666,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,44 @@
+{
+  "run_id": "s037__control__rep2",
+  "prompt_id": "s037",
+  "condition": "control",
+  "repetition_id": 2,
+  "timestamp": "2026-06-11T17:23:15.816012+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о различии между prompt engineering и decoding-time control. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Различие между prompt engineering и decoding-time control заключается в том, что первый подход фокусируется на формулировке входных запросов для языковой модели с целью направить её генерацию, тогда как второй метод воздействует непосредственно на процесс генерации текста, изменяя параметры или алгоритмы декодирования. Важно отметить, что границы между этими методами не всегда чётко очерчены, поскольку некоторые техники prompt engineering могут включать элементы управления на этапе декодирования, а decoding-time control иногда требует адаптации промптов для достижения оптимального результата. Таким образом, несмотря на различия в точках приложения, оба подхода служат общей цели — управлению поведением языковых моделей, и их эффективное сочетание может значительно повысить качество и релевантность генерируемого текста.",
+  "token_count": 104,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.009615384615384616
+    },
+    "argument_development": {
+      "count": 1,
+      "normalized": 0.009615384615384616
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 1,
+      "normalized": 0.009615384615384616
+    }
+  },
+  "marker_counts": {
+    "таким образом": 1,
+    "важно отметить": 1
+  },
+  "total_marker_score": 0.028846153846153848,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}
