@@ -129,6 +129,8 @@ def _payload(model: str, **extra: Any) -> dict[str, Any]:
         "temperature": 0,
         "max_tokens": 8,
     }
+    if "/" in model and model.lower().startswith("qwen/"):
+        payload["reasoning"] = {"enabled": False}
     payload.update(extra)
     return payload
 
@@ -148,6 +150,7 @@ def _probe(url: str, api_key: str, payload: dict[str, Any]) -> dict[str, Any]:
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
+            "User-Agent": "logit-bias-ms/1.0",
         },
     )
     try:

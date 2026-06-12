@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PROFILES = [
     ("scaled_mini", ROOT / "outputs_vkr_scaled_mini"),
     ("scaled_nano", ROOT / "outputs_vkr_scaled_nano"),
+    ("scaled_together_qwen", ROOT / "outputs_vkr_scaled_together_qwen"),
 ]
 CONDITIONS = ("control", "early", "mid", "late")
 INTERVENTIONS = ("early", "mid", "late")
@@ -23,6 +24,7 @@ COLORS = {
     "late": "#b45309",
     "scaled_mini": "#2563eb",
     "scaled_nano": "#dc2626",
+    "scaled_together_qwen": "#7c3aed",
     "combined": "#111827",
 }
 
@@ -209,14 +211,14 @@ def rows_by_profile_condition(rows: list[dict]) -> dict[tuple[str, str], dict]:
 
 def write_delta_chart(path: Path, rows: list[dict]) -> None:
     lookup = rows_by_profile_condition(rows)
-    profiles = ["scaled_mini", "scaled_nano", "combined"]
+    profiles = ["scaled_mini", "scaled_nano", "scaled_together_qwen", "combined"]
     width, height = 920, 520
     margin = 70
     max_abs = max(abs(float(lookup[(profile, condition)]["delta_p0_mean"])) for profile in profiles for condition in INTERVENTIONS)
     scale = (height - 2 * margin) / max_abs
     baseline = margin
     bars = []
-    group_width = 230
+    group_width = 190
     bar_width = 42
     for pi, profile in enumerate(profiles):
         start_x = 120 + pi * group_width
@@ -245,7 +247,7 @@ def write_delta_chart(path: Path, rows: list[dict]) -> None:
 
 def write_similarity_chart(path: Path, rows: list[dict]) -> None:
     lookup = rows_by_profile_condition(rows)
-    profiles = ["scaled_mini", "scaled_nano", "combined"]
+    profiles = ["scaled_mini", "scaled_nano", "scaled_together_qwen", "combined"]
     width, height = 920, 520
     left, right, top, bottom = 90, 850, 70, 430
     points = []
@@ -281,26 +283,26 @@ def write_similarity_chart(path: Path, rows: list[dict]) -> None:
 
 
 def write_prompt_wins_chart(path: Path, rows: list[dict]) -> None:
-    width, height = 920, 520
-    profiles = ["scaled_mini", "scaled_nano", "combined"]
+    width, height = 920, 720
+    profiles = ["scaled_mini", "scaled_nano", "scaled_together_qwen", "combined"]
     lookup = {row["profile"]: row for row in rows}
     max_count = max(int(lookup[profile]["prompt_count"]) for profile in profiles)
     left, top = 120, 80
-    bar_h = 34
-    gap = 58
+    bar_h = 26
+    gap = 38
     elements = [text(width / 2, 36, "Prompt-level abs(delta P0) winners", 22, "middle", "#111827", "700")]
     for idx, profile in enumerate(profiles):
         row = lookup[profile]
         x = left
-        y = top + idx * 110
+        y = top + idx * 135
         elements.append(text(30, y + 24, profile.replace("_", " "), 15, "start", "#111827", "600"))
         for condition in INTERVENTIONS:
             count = int(row[f"{condition}_wins"])
             w = count / max_count * 650
             elements.append(rect(x, y, w, bar_h, COLORS[condition]))
-            elements.append(text(x + w + 8, y + 22, f"{condition}: {count}", 14, "start"))
+            elements.append(text(x + w + 8, y + 19, f"{condition}: {count}", 14, "start"))
             y += gap
-    elements.append(legend(650, 405, [("early", COLORS["early"]), ("mid", COLORS["mid"]), ("late", COLORS["late"])]))
+    elements.append(legend(650, 645, [("early", COLORS["early"]), ("mid", COLORS["mid"]), ("late", COLORS["late"])]))
     path.write_text(svg_wrap(width, height, elements), encoding="utf-8")
 
 
@@ -317,16 +319,16 @@ def write_markdown_summary(path: Path, profile_rows: list[dict], prompt_rows: li
         "- 100 русскоязычных академических промптов.",
         "- 4 условия: `control`, `early`, `mid`, `late`.",
         "- 3 повтора на каждое сочетание prompt x condition.",
-        "- 2 модели: `gpt-4.1-mini` и `gpt-4.1-nano`.",
-        "- Итого: 2400 новых генераций; `error_count = 0` в обоих scaled-профилях.",
-        "- Вместе с двумя исходными max-профилями в репозитории получается 2784 генерации в сопоставимом дизайне.",
+        "- 3 модели: `gpt-4.1-mini`, `gpt-4.1-nano`, `Qwen/Qwen3.5-9B` через Together AI.",
+        "- Итого: 3600 новых генераций; `error_count = 0` во всех трех scaled-профилях.",
+        "- Вместе с двумя исходными max-профилями в репозитории получается 3984 генерации в сопоставимом дизайне.",
         "",
         "## Главные числа scaled-профиля",
         "",
         "| Профиль | Условие | Runs | mean ΔP0 | mean cosine | mean perplexity | length finish rate |",
         "|---|---:|---:|---:|---:|---:|---:|",
     ]
-    for profile in ("scaled_mini", "scaled_nano", "combined"):
+    for profile in ("scaled_mini", "scaled_nano", "scaled_together_qwen", "combined"):
         for condition in CONDITIONS:
             row = lookup[(profile, condition)]
             lines.append(
@@ -343,7 +345,7 @@ def write_markdown_summary(path: Path, profile_rows: list[dict], prompt_rows: li
             "|---|---:|---:|---:|---:|---:|---:|",
         ]
     )
-    for profile in ("scaled_mini", "scaled_nano", "combined"):
+    for profile in ("scaled_mini", "scaled_nano", "scaled_together_qwen", "combined"):
         row = prompts[profile]
         lines.append(
             f"| {profile} | {row['prompt_count']} | {row['early_wins']} | {row['mid_wins']} | "
@@ -355,19 +357,19 @@ def write_markdown_summary(path: Path, profile_rows: list[dict], prompt_rows: li
             "## Интерпретация для презентации",
             "",
             "1. Масштабированный профиль подтверждает, что позиция вмешательства меняет наблюдаемый маркерный слой.",
-            "2. На `gpt-4.1-mini` раннее и срединное вмешательство дают почти одинаковый средний сдвиг и заметно превосходят позднее.",
-            "3. На `gpt-4.1-nano` раннее вмешательство дает самый заметный средний отрицательный сдвиг, а позднее почти не меняет средний маркерный слой.",
-            "4. В обеих scaled-моделях late сохраняет более высокую semantic similarity, то есть слабее перестраивает ответ.",
+            "2. Внешний профиль `Qwen/Qwen3.5-9B` подтверждает, что эффект не сводится к OpenAI-only артефакту.",
+            "3. По prompt-level ранжированию `early` чаще всего дает максимальный абсолютный сдвиг: особенно на `gpt-4.1-mini` и `Qwen/Qwen3.5-9B`.",
+            "4. Late обычно сохраняет более высокую semantic similarity, то есть слабее перестраивает ответ.",
             "5. Prompt-level ранжирование не сводится к простой формуле `early > mid > late`, поэтому H1 лучше формулировать как частичную, а H2 как более устойчивую.",
             "",
             "## Файлы",
             "",
-            "- `new_experiment/scaled_profile_summary.csv`",
-            "- `new_experiment/scaled_prompt_wins.csv`",
-            "- `new_experiment/profile_comparison_scaled.csv`",
-            "- `new_experiment/figures/scaled_delta_p0.svg`",
-            "- `new_experiment/figures/scaled_similarity_tradeoff.svg`",
-            "- `new_experiment/figures/scaled_prompt_wins.svg`",
+            "- `experiment/scaled_profile_summary.csv`",
+            "- `experiment/scaled_prompt_wins.csv`",
+            "- `experiment/profile_comparison_scaled.csv`",
+            "- `experiment/figures/scaled_delta_p0.svg`",
+            "- `experiment/figures/scaled_similarity_tradeoff.svg`",
+            "- `experiment/figures/scaled_prompt_wins.svg`",
         ]
     )
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")

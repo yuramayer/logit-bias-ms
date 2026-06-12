@@ -6,25 +6,31 @@
 <text x="470.00" y="485.00" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#111827">abs(mean delta P0)</text>
 <text x="24.00" y="250.00" font-family="Arial, sans-serif" font-size="15" font-weight="400" text-anchor="middle" fill="#111827" transform="rotate(-90 24 250)">cosine similarity</text>
 <text x="90.00" y="452.00" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0</text>
-<text x="850.00" y="452.00" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.0032</text>
-<text x="80.00" y="430.00" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#111827">0.61</text>
+<text x="850.00" y="452.00" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="middle" fill="#111827">0.0034</text>
+<text x="80.00" y="430.00" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#111827">0.36</text>
 <text x="80.00" y="70.00" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="end" fill="#111827">0.73</text>
-<circle cx="850.00" cy="369.22" r="8.00" fill="#0f766e"/>
-<text x="860.00" y="361.22" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">mini:early</text>
-<circle cx="833.13" cy="219.86" r="8.00" fill="#2563eb"/>
-<text x="843.13" y="211.86" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">mini:mid</text>
-<circle cx="316.72" cy="130.78" r="8.00" fill="#b45309"/>
-<text x="326.72" y="122.78" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">mini:late</text>
-<circle cx="634.93" cy="359.57" r="8.00" fill="#0f766e"/>
-<text x="644.93" y="351.57" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">nano:early</text>
-<circle cx="182.92" cy="240.35" r="8.00" fill="#2563eb"/>
-<text x="192.92" y="232.35" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">nano:mid</text>
-<circle cx="90.95" cy="177.85" r="8.00" fill="#b45309"/>
-<text x="100.95" y="169.85" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">nano:late</text>
-<circle cx="742.35" cy="364.39" r="8.00" fill="#0f766e"/>
-<text x="752.35" y="356.39" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">combined:early</text>
-<circle cx="508.02" cy="230.11" r="8.00" fill="#2563eb"/>
-<text x="518.02" y="222.11" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">combined:mid</text>
-<circle cx="203.83" cy="154.32" r="8.00" fill="#b45309"/>
-<text x="213.83" y="146.32" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">combined:late</text>
+<circle cx="813.36" cy="166.25" r="8.00" fill="#0f766e"/>
+<text x="823.36" y="158.25" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">mini:early</text>
+<circle cx="797.30" cy="118.21" r="8.00" fill="#2563eb"/>
+<text x="807.30" y="110.21" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">mini:mid</text>
+<circle cx="305.79" cy="89.55" r="8.00" fill="#b45309"/>
+<text x="315.79" y="81.55" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">mini:late</text>
+<circle cx="608.65" cy="163.14" r="8.00" fill="#0f766e"/>
+<text x="618.65" y="155.14" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">nano:early</text>
+<circle cx="178.44" cy="124.80" r="8.00" fill="#2563eb"/>
+<text x="188.44" y="116.80" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">nano:mid</text>
+<circle cx="90.90" cy="104.69" r="8.00" fill="#b45309"/>
+<text x="100.90" y="96.69" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">nano:late</text>
+<circle cx="642.36" cy="410.45" r="8.00" fill="#0f766e"/>
+<text x="652.36" y="402.45" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">together_qwen:early</text>
+<circle cx="850.00" cy="383.85" r="8.00" fill="#2563eb"/>
+<text x="860.00" y="375.85" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">together_qwen:mid</text>
+<circle cx="809.06" cy="372.97" r="8.00" fill="#b45309"/>
+<text x="819.06" y="364.97" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">together_qwen:late</text>
+<circle cx="688.05" cy="246.61" r="8.00" fill="#0f766e"/>
+<text x="698.05" y="238.61" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">combined:early</text>
+<circle cx="608.65" cy="208.95" r="8.00" fill="#2563eb"/>
+<text x="618.65" y="200.95" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">combined:mid</text>
+<circle cx="401.92" cy="189.07" r="8.00" fill="#b45309"/>
+<text x="411.92" y="181.07" font-family="Arial, sans-serif" font-size="12" font-weight="400" text-anchor="start" fill="#111827">combined:late</text>
 </svg>

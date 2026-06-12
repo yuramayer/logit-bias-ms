@@ -1,0 +1,41 @@
+{
+  "run_id": "s072__early__rep1",
+  "prompt_id": "s072",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-06-12T15:37:56.005937+00:00",
+  "model_name": "Qwen/Qwen3.5-9B",
+  "prompt_text": "Напиши аналитический фрагмент о различии между маркерным сдвигом и деградацией текста. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Центральным тезисом анализа является фундаментальное различие между маркерным смещением как функциональной адаптацией дискурса к новым контекстам декодирования и деградацией текста как патологическим нарушением его семиотической целостностиОднако следует признать, что грань между адаптивным сдвигом и начальной стадией деградации часто размыта, поскольку чрезмерная специализация кода может эволюционировать в потерю общности понимания. В итоге, маркерный сдвиг представляет собой динамический механизм сохранения релевантности информации в меняющихся условиях, тогда как деградация свидетельствует о необратимом распаде структурных связей, делающих текст нечитаемым для целевой аудитории без восстановления исходных протоколов передачи смысла.",
+  "token_count": 84,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

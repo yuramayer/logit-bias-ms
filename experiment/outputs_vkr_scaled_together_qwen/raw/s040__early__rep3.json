@@ -1,0 +1,41 @@
+{
+  "run_id": "s040__early__rep3",
+  "prompt_id": "s040",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-06-12T15:45:19.999658+00:00",
+  "model_name": "Qwen/Qwen3.5-9B",
+  "prompt_text": "Сопоставь два возможных объяснения о различии между prompt engineering и decoding-time control. Объясни, какую роль это играет в дизайне эксперимента. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Различие между prompt engineering как статической настройкой входных данных на этапе подготовки модели (pre-training или fine-tuning) и контролем декодирования как динамическим регулированием вероятностей генерации на этапе вывода (inference) фундаментально влияет на методологиЭта дихотомия критически важна для дизайна эксперимента, поскольку позволяет исследователям изолировать влияние семантической структуры запроса от механизмов вероятностного отбора токенов. Если экспериментальная парадигма не учитывает разграничение этих уровней, наблюдаемые изменения в поведении модели могут быть ошибочно атрибутированы одной из техник, тогда как на деле они обусловлены взаимодействием обоих факторов. Осторожный учет этой специфики обеспечивает внутреннюю валидность исследования, позволяя точно определить, какие аспекты архитектуры или алгоритма вывода ответственны за целевые результаты, избегая при этом ложных корреляций и упрощенных выводов о причинно-следственных связях в сложных генеративных системах.",
+  "token_count": 116,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "tq02__late__rep1",
+  "prompt_id": "tq02",
+  "condition": "late",
+  "repetition_id": 1,
+  "timestamp": "2026-06-12T15:29:54.673115+00:00",
+  "model_name": "Qwen/Qwen3.5-9B",
+  "prompt_text": "Дай осторожную исследовательскую оценку эксперимента с подавлением дискурсивных маркеров через logit bias. Укажи одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Применение logit bias для подавления дискурсивных маркеров представляет собой перспективный метод управления генеративными моделями, однако его эффективность требует осторожной интерпретации. Ключевым преимуществом данного подхода является возможность тонкой регуляции вероятностного распределения без модификации весов модели, что обеспечивает гибкость в адаптации к специфическим этическим или стилистическим требованиям в реальном времени. Тем не менее, существенным ограничением остаетсяТем не менее, существенным ограничением остается риск непредусмотренных семантических искажений и деградации когерентности текста при агрессивном подавлении",
+  "token_count": 70,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.014285714285714285
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.014285714285714285,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

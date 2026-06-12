@@ -1,0 +1,39 @@
+{
+  "model": "gpt-4.1-mini",
+  "embedding_model": null,
+  "provider": "openai_chat_completions",
+  "tokenizer_backend": "tiktoken",
+  "tokenizer_model": null,
+  "generation_approach": "segment_approximation",
+  "temperature": 0.3,
+  "top_p": 1.0,
+  "max_tokens": 220,
+  "repetitions": 3,
+  "seed": 2101,
+  "bias_value": -8,
+  "bias_categories": [
+    "logical_structuring",
+    "hedging_epistemic"
+  ],
+  "delta_p0_mode": "text_frequency_proxy",
+  "similarity_method": "token_count_cosine",
+  "perplexity_method": "control_bigram_proxy",
+  "prompts_path": "data/prompts_vkr_ood_100.json",
+  "markers_path": "data/markers_vkr_max.json",
+  "outputs_dir": "outputs_vkr_ood_mini",
+  "enable_logprobs": false,
+  "system_prompt": "Ты пишешь краткий академический текст на русском языке. Ответ должен быть в 1-2 абзацах, примерно 90-130 слов, с явной аргументацией, осторожными формулировками там, где это уместно, без списков и без повторов.",
+  "openai": {
+    "api_key_env": "OPENAI_TOKEN",
+    "base_url": "https://api.openai.com",
+    "chat_path": "/v1/chat/completions",
+    "embeddings_path": "/v1/embeddings",
+    "timeout_seconds": 120
+  },
+  "segment_boundaries": {
+    "early_end": 0.25,
+    "mid_start": 0.40,
+    "mid_end": 0.60,
+    "late_start": 0.75
+  }
+}

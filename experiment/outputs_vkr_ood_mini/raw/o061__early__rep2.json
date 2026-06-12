@@ -1,0 +1,43 @@
+{
+  "run_id": "o061__early__rep2",
+  "prompt_id": "o061",
+  "condition": "early",
+  "repetition_id": 2,
+  "timestamp": "2026-06-12T16:37:46.532752+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй краткое академическое объяснение о оценке эффективности социальных программ. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Оценка эффективности социальных программ представляет собой систематический процесс анализа их результатов и воздействия на целевые группы населения. Первый аргумент заключается в том, что такая оценка позволяет выявлять степень достижения поставленных целей и оптимизировать распределение ресурсов. Второй аспект связан свозможностью выявления непредвиденных последствий, что способствует корректировке программ и повышению их социальной значимости. Таким образом, регулярная и методологически обоснованная оценка эффективности социальных программ является необходимым инструментом для обеспечения их целенаправленности и устойчивого развития.",
+  "token_count": 71,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.014084507042253521
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "таким образом": 1
+  },
+  "total_marker_score": 0.014084507042253521,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

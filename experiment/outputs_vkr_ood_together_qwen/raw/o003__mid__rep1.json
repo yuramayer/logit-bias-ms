@@ -1,0 +1,43 @@
+{
+  "run_id": "o003__mid__rep1",
+  "prompt_id": "o003",
+  "condition": "mid",
+  "repetition_id": 1,
+  "timestamp": "2026-06-12T16:42:41.177091+00:00",
+  "model_name": "Qwen/Qwen3.5-9B",
+  "prompt_text": "Подготовь методологический комментарий о доступности городского общественного транспорта. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Методологический анализ доступности городского общественного транспорта требует дифференцированного подхода, учитывающего пространственную гетерогенность городской среды. Ключевым преимуществом данной системы выступает её способность обеспечивать высокую плотность охвата территории при относительно низких индивидуальных затратах на перемещение, что способствует социальной инклюзии и снижению транспортного неравенства среди уязвимых групп населения.Тем notwithstanding non-negligible limitations persist regarding the temporal and spatial accessibility of transit nodes. A primary constraint involves the frequent misalignment between fixed schedules and dynamic user demand patterns in peripheral districts. Consequently.В частности, в отдаленных районах наблюдается критический разрыв между интервалами движения и реальными потребностями жителей, что существенно снижает предсказуемость поездок и увеличивает общее время в пути. Это структурное ограничение часто приводит к тому, что транспортная доступность становится условной, зависящей от временного окна прибытия, а не от физической близости остановки. Таким образом, несмотря на формальное",
+  "token_count": 132,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.007575757575757576
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "таким образом": 1
+  },
+  "total_marker_score": 0.007575757575757576,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "length"
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "o062__control__rep2",
+  "prompt_id": "o062",
+  "condition": "control",
+  "repetition_id": 2,
+  "timestamp": "2026-06-12T16:37:48.560666+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о оценке эффективности социальных программ. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Оценка эффективности социальных программ является ключевым элементом в обеспечении их целенаправленного воздействия и рационального распределения ресурсов. Однако следует учитывать, что измерение результатов таких программ часто сталкивается с методологическими сложностями, связанными с многомерностью социальных эффектов и влиянием внешних факторов, что затрудняет однозначное определение причинно-следственных связей. В итоге, несмотря на существующие ограничения, систематический и критический подход к оценке позволяет выявлять наиболее значимые аспекты программ, способствуя их совершенствованию и повышению социальной отдачи.",
+  "token_count": 69,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.014492753623188406
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.014492753623188406,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

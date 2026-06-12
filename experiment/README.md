@@ -23,9 +23,10 @@
 | `config_vkr_max_nano.yaml` | проверка на `gpt-4.1-nano` |
 | `config_vkr_scaled_mini.yaml` | масштабированный запуск на `gpt-4.1-mini`: 100 промптов, 1200 генераций |
 | `config_vkr_scaled_nano.yaml` | масштабированный запуск на `gpt-4.1-nano`: 100 промптов, 1200 генераций |
+| `config_vkr_scaled_together_qwen.yaml` | внешний масштабированный запуск на `Qwen/Qwen3.5-9B` через Together AI: 100 промптов, 1200 генераций |
 
 Основные результаты для ВКР лежат в `outputs_vkr_max_mini`. Проверка на второй модели лежит в `outputs_vkr_max_nano`.
-Масштабированная проверка перед защитой лежит в `outputs_vkr_scaled_mini` и `outputs_vkr_scaled_nano`.
+Масштабированная проверка перед защитой лежит в `outputs_vkr_scaled_mini`, `outputs_vkr_scaled_nano` и `outputs_vkr_scaled_together_qwen`.
 
 ## Запуск
 
@@ -60,6 +61,13 @@ python3 -m experiment.src.run_experiment_parallel \
   --retries 4 \
   --progress-every 25
 
+export TOGETHER_TOKEN=...
+python3 -m experiment.src.run_experiment_parallel \
+  --config experiment/config_vkr_scaled_together_qwen.yaml \
+  --workers 8 \
+  --retries 4 \
+  --progress-every 50
+
 python3 experiment/tools/summarize_scaled_results.py
 ```
 
@@ -68,15 +76,25 @@ python3 experiment/tools/summarize_scaled_results.py
 - 100 русскоязычных академических промптов.
 - 4 условия: `control`, `early`, `mid`, `late`.
 - 3 повтора на каждое сочетание.
-- 2 модели: `gpt-4.1-mini`, `gpt-4.1-nano`.
+- 3 модели: `gpt-4.1-mini`, `gpt-4.1-nano`, `Qwen/Qwen3.5-9B` через Together AI.
+- 3600 новых генераций, `error_count = 0`.
+
+Дополнительно добавлена out-of-domain проверка переносимости:
+
+- 100 академических промптов вне тематики LLM/logit bias.
+- 2 модели: `gpt-4.1-mini`, `Qwen/Qwen3.5-9B` через Together AI.
 - 2400 новых генераций, `error_count = 0`.
+- Итого post-submission extension: 6000 новых генераций.
 
 Основные материалы:
 
+- `POST_SUBMISSION_RESULTS.md` - общая сводка всех дополнительных прогонов;
 - `SCALED_EXPERIMENT.md` - описание scaled-эксперимента;
 - `SCALED_PRESENTATION_BLOCK.md` - готовый блок для слайдов;
+- `OOD_PROMPT_TRANSFER.md` - out-of-domain проверка переносимости;
 - `scaled_defense_summary.md` - краткая сводка;
 - `scaled_profile_summary.csv`, `scaled_prompt_wins.csv`, `profile_comparison_scaled.csv`;
+- `ood_profile_summary.csv`, `ood_prompt_wins.csv`;
 - `figures/scaled_delta_p0.svg`, `figures/scaled_similarity_tradeoff.svg`,
   `figures/scaled_prompt_wins.svg`.
 

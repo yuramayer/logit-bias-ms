@@ -1,0 +1,43 @@
+{
+  "run_id": "o091__mid__rep2",
+  "prompt_id": "o091",
+  "condition": "mid",
+  "repetition_id": 2,
+  "timestamp": "2026-06-12T16:56:15.345720+00:00",
+  "model_name": "Qwen/Qwen3.5-9B",
+  "prompt_text": "Сформулируй краткое академическое объяснение о использовании статистики в публичной политике. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Использование статистики в публичной политике служит фундаментальным инструментом для обоснования государственных решений и повышения их эффективности. Первый аргумент заключается в способности количественных данных выявлять системные социальные проблемы, такие как неравенство или безработица, что позволяет перейти от интуитивных суждений к доказательному управлению. Второй аргумент связан с необходимостью объек...тивизации распределения ресурсов через прозрачные критерии оценки эффективности программ. Статистика обеспечивает сравнительный анализ различных стратегий перед их внедрением или корректировку действующих мер на основе фак...тической оценки результатов. Однако следует признать, что чрезмерная полаг",
+  "token_count": 81,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.012345679012345678
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.012345679012345678,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "stop"
+}

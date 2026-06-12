@@ -1,0 +1,41 @@
+{
+  "run_id": "o016__early__rep1",
+  "prompt_id": "o016",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-06-12T16:34:22.035020+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй краткое академическое объяснение о регулировании цифровых платформ. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Регулирование цифровых платформ становится необходимым инструментом для обеспечения баланса между инновациями и защитой общественных интересов. Первый аргумент заключается в том, что отсутствие адекватного регулирования может привести к монополизации рынка и ограничению конкуренции, что негативно сказывается на разнообразии предложений и качестве услуг для пользователей. Второй аргумент связан с вопросами защиты персональных данных и предотвращения распространения дезинформации, что требует четких нормативных рамок для цифровых платформ. В заключение, можно отметить, что разумное регулирование способствует созданию справедливой и безопасной цифровой среды, стимулируя при этом развитие технологий и соблюдение прав пользователей.",
+  "token_count": 86,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

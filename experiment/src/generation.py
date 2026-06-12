@@ -116,6 +116,8 @@ class OpenAIChatClient:
             }
             if self.config.seed is not None:
                 payload["seed"] = self.config.seed + repetition_id
+            if self.config.provider.startswith("together_"):
+                payload["reasoning"] = {"enabled": False}
             if self.config.enable_logprobs:
                 payload["logprobs"] = True
             if segment.bias_enabled and logit_bias:
@@ -162,6 +164,7 @@ class OpenAIChatClient:
             headers={
                 "Authorization": f"Bearer {self.api_key}",
                 "Content-Type": "application/json",
+                "User-Agent": "logit-bias-ms/1.0",
             },
         )
         try:
@@ -284,7 +287,7 @@ def _build_tiktoken_logit_bias_map(model: str, markers: list[str], bias_value: i
         encoder = tiktoken.get_encoding("cl100k_base")
 
     bias_map: dict[str, int] = {}
-    for marker in markers:
+    for marker in _marker_token_variants(markers):
         for token_id in encoder.encode(marker):
             bias_map[str(token_id)] = bias_value
     return bias_map
@@ -300,11 +303,26 @@ def _build_huggingface_logit_bias_map(model: str, markers: list[str], bias_value
 
     tokenizer = AutoTokenizer.from_pretrained(model, use_fast=True)
     bias_map: dict[str, int] = {}
-    for marker in markers:
+    for marker in _marker_token_variants(markers):
         token_ids = tokenizer.encode(marker, add_special_tokens=False)
         for token_id in token_ids:
             bias_map[str(token_id)] = bias_value
     return bias_map
+
+
+def _marker_token_variants(markers: list[str]) -> list[str]:
+    variants: list[str] = []
+    seen: set[str] = set()
+    for marker in markers:
+        stripped = marker.strip()
+        if not stripped:
+            continue
+        capitalized = stripped[:1].upper() + stripped[1:]
+        for candidate in (stripped, capitalized, f" {stripped}", f" {capitalized}"):
+            if candidate not in seen:
+                seen.add(candidate)
+                variants.append(candidate)
+    return variants
 
 
 def cosine_similarity_embeddings(left: list[float], right: list[float]) -> float | None:

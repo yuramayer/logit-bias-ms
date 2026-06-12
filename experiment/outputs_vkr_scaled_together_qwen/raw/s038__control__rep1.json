@@ -1,0 +1,43 @@
+{
+  "run_id": "s038__control__rep1",
+  "prompt_id": "s038",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-06-12T15:44:59.212350+00:00",
+  "model_name": "Qwen/Qwen3.5-9B",
+  "prompt_text": "Подготовь методологический комментарий о различии между prompt engineering и decoding-time control. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Prompt engineering представляет собой стратегию оптимизации входных данных, где пользователь формулирует запросы для направления модели в нужное русло, тогда как контроль в момент декодирования фокусируется на динамическом регулировании вероятностей генерации токенов во время вывода. Ключевое преимущество подхода к декодированию заключается в его адаптивности, позволяющей корректировать стиль или содержание ответа в реальном времени на основе контекста, что делает процесс более гибким по сравнению со статичными промптами. Однако существенным ограничением данного метода является высокая вычислительная сложность и латентность, обусловленные необходимостью пересчета распределений вероятностей для каждого сгенерированного токена, что может быть неприемлемо для систем с жесткими требованиями к скорости обработки запросов.",
+  "token_count": 98,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.01020408163265306
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.01020408163265306,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

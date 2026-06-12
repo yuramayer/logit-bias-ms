@@ -13,7 +13,7 @@ proxy metrics.
 | --- | --- | --- |
 | OpenAI | yes | Already used; `logit_bias` works with `tiktoken` token ids. |
 | Fireworks AI | yes, best next target | Chat completions schema includes `logit_bias`, `logprobs`, `top_logprobs`, and OpenAI-compatible endpoint. Use `huggingface` tokenizer backend for non-OpenAI models. |
-| Together AI | yes, best next target | Chat completions schema includes `logit_bias` and `logprobs`. Use `huggingface` tokenizer backend. |
+| Together AI | yes, completed on Qwen | Chat completions schema includes `logit_bias` and `logprobs`. `Qwen/Qwen3.5-9B` was validated and run with `huggingface` tokenizer backend. |
 | OpenRouter | possible, second target | Request schema includes `logit_bias`, `logprobs`, and `top_logprobs`, but support can depend on routed model/provider. Must smoke-test a concrete model. |
 | DeepSeek native API | no for direct replication | Official chat completion docs expose `logprobs`, but `logit_bias` is not present in the documented request schema. Use a DeepSeek-family model through Fireworks/OpenRouter instead. |
 | Groq | no for this methodology | The API reference lists `logit_bias` and `logprobs`, but says they are not yet supported by any model. |
@@ -31,6 +31,24 @@ models should use their HuggingFace tokenizer ids. The runner now supports:
 
 Without this, a request can technically contain `logit_bias` but bias the wrong
 tokens.
+
+## Completed external run
+
+`Qwen/Qwen3.5-9B` through Together AI was tested in three steps:
+
+1. API smoke-test: base chat completion, `logit_bias`, and `logprobs` all
+   returned successful responses.
+2. Causal token test: without bias, the model answered `Следовательно` in 3/3
+   runs; with `logit_bias=-100` on the relevant Qwen token ids, it avoided the
+   target marker in 3/3 runs.
+3. Full scaled profile: `100 prompts x 4 conditions x 3 repetitions = 1200`
+   generations, `error_count = 0`.
+
+Prompt-level result for this external profile:
+
+| Profile | Prompt cases | early wins | mid wins | late wins | early > late | mid > late |
+|---|---:|---:|---:|---:|---:|---:|
+| scaled_together_qwen | 100 | 44 | 40 | 16 | 61 | 68 |
 
 ## Smoke-test before a full run
 
@@ -100,4 +118,3 @@ If one or two external providers are added, the presentation line becomes:
 > selection was not arbitrary: candidates were first filtered by API-level
 > support for token-level `logit_bias`, then run through the same 100-prompt,
 > four-condition, three-repetition protocol.
-

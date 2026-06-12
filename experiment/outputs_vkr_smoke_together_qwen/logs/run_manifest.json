@@ -1,0 +1,17 @@
+{
+  "prompt_ids": [
+    "tq01",
+    "tq02"
+  ],
+  "category_names": [
+    "logical_structuring",
+    "argument_development",
+    "hedging_epistemic",
+    "intensification_assertiveness",
+    "anglocentric_formulas"
+  ],
+  "similarity_method": "token_count_cosine",
+  "perplexity_method": "control_bigram_proxy",
+  "delta_p0_mode": "text_frequency_proxy",
+  "generation_approach": "segment_approximation"
+}

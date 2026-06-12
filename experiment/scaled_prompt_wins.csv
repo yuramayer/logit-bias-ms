@@ -1,4 +1,5 @@
 profile,prompt_count,early_wins,mid_wins,late_wins,early_gt_late,mid_gt_late,early_gt_mid
 scaled_mini,100,42,36,22,58,60,47
 scaled_nano,100,35,30,35,46,47,51
-combined,200,77,66,57,104,107,98
+scaled_together_qwen,100,44,40,16,61,68,53
+combined,300,121,106,73,165,175,151

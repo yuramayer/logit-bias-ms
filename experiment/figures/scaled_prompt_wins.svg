@@ -1,31 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="720" viewBox="0 0 920 720">
 <rect width="100%" height="100%" fill="#ffffff"/>
 <text x="460.00" y="36.00" font-family="Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle" fill="#111827">Prompt-level abs(delta P0) winners</text>
 <text x="30.00" y="104.00" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="start" fill="#111827">scaled mini</text>
-<rect x="120.00" y="80.00" width="136.50" height="34.00" fill="#0f766e" rx="2"/>
-<text x="264.50" y="102.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">early: 42</text>
-<rect x="120.00" y="138.00" width="117.00" height="34.00" fill="#2563eb" rx="2"/>
-<text x="245.00" y="160.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">mid: 36</text>
-<rect x="120.00" y="196.00" width="71.50" height="34.00" fill="#b45309" rx="2"/>
-<text x="199.50" y="218.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">late: 22</text>
-<text x="30.00" y="214.00" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="start" fill="#111827">scaled nano</text>
-<rect x="120.00" y="190.00" width="113.75" height="34.00" fill="#0f766e" rx="2"/>
-<text x="241.75" y="212.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">early: 35</text>
-<rect x="120.00" y="248.00" width="97.50" height="34.00" fill="#2563eb" rx="2"/>
-<text x="225.50" y="270.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">mid: 30</text>
-<rect x="120.00" y="306.00" width="113.75" height="34.00" fill="#b45309" rx="2"/>
-<text x="241.75" y="328.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">late: 35</text>
-<text x="30.00" y="324.00" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="start" fill="#111827">combined</text>
-<rect x="120.00" y="300.00" width="250.25" height="34.00" fill="#0f766e" rx="2"/>
-<text x="378.25" y="322.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">early: 77</text>
-<rect x="120.00" y="358.00" width="214.50" height="34.00" fill="#2563eb" rx="2"/>
-<text x="342.50" y="380.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">mid: 66</text>
-<rect x="120.00" y="416.00" width="185.25" height="34.00" fill="#b45309" rx="2"/>
-<text x="313.25" y="438.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">late: 57</text>
-<rect x="650.00" y="392.00" width="16.00" height="16.00" fill="#0f766e" rx="2"/>
-<text x="674.00" y="405.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">early</text>
-<rect x="650.00" y="418.00" width="16.00" height="16.00" fill="#2563eb" rx="2"/>
-<text x="674.00" y="431.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">mid</text>
-<rect x="650.00" y="444.00" width="16.00" height="16.00" fill="#b45309" rx="2"/>
-<text x="674.00" y="457.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">late</text>
+<rect x="120.00" y="80.00" width="91.00" height="26.00" fill="#0f766e" rx="2"/>
+<text x="219.00" y="99.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">early: 42</text>
+<rect x="120.00" y="118.00" width="78.00" height="26.00" fill="#2563eb" rx="2"/>
+<text x="206.00" y="137.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">mid: 36</text>
+<rect x="120.00" y="156.00" width="47.67" height="26.00" fill="#b45309" rx="2"/>
+<text x="175.67" y="175.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">late: 22</text>
+<text x="30.00" y="239.00" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="start" fill="#111827">scaled nano</text>
+<rect x="120.00" y="215.00" width="75.83" height="26.00" fill="#0f766e" rx="2"/>
+<text x="203.83" y="234.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">early: 35</text>
+<rect x="120.00" y="253.00" width="65.00" height="26.00" fill="#2563eb" rx="2"/>
+<text x="193.00" y="272.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">mid: 30</text>
+<rect x="120.00" y="291.00" width="75.83" height="26.00" fill="#b45309" rx="2"/>
+<text x="203.83" y="310.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">late: 35</text>
+<text x="30.00" y="374.00" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="start" fill="#111827">scaled together qwen</text>
+<rect x="120.00" y="350.00" width="95.33" height="26.00" fill="#0f766e" rx="2"/>
+<text x="223.33" y="369.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">early: 44</text>
+<rect x="120.00" y="388.00" width="86.67" height="26.00" fill="#2563eb" rx="2"/>
+<text x="214.67" y="407.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">mid: 40</text>
+<rect x="120.00" y="426.00" width="34.67" height="26.00" fill="#b45309" rx="2"/>
+<text x="162.67" y="445.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">late: 16</text>
+<text x="30.00" y="509.00" font-family="Arial, sans-serif" font-size="15" font-weight="600" text-anchor="start" fill="#111827">combined</text>
+<rect x="120.00" y="485.00" width="262.17" height="26.00" fill="#0f766e" rx="2"/>
+<text x="390.17" y="504.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">early: 121</text>
+<rect x="120.00" y="523.00" width="229.67" height="26.00" fill="#2563eb" rx="2"/>
+<text x="357.67" y="542.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">mid: 106</text>
+<rect x="120.00" y="561.00" width="158.17" height="26.00" fill="#b45309" rx="2"/>
+<text x="286.17" y="580.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">late: 73</text>
+<rect x="650.00" y="632.00" width="16.00" height="16.00" fill="#0f766e" rx="2"/>
+<text x="674.00" y="645.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">early</text>
+<rect x="650.00" y="658.00" width="16.00" height="16.00" fill="#2563eb" rx="2"/>
+<text x="674.00" y="671.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">mid</text>
+<rect x="650.00" y="684.00" width="16.00" height="16.00" fill="#b45309" rx="2"/>
+<text x="674.00" y="697.00" font-family="Arial, sans-serif" font-size="14" font-weight="400" text-anchor="start" fill="#111827">late</text>
 </svg>

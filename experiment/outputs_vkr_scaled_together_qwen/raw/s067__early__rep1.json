@@ -1,0 +1,41 @@
+{
+  "run_id": "s067__early__rep1",
+  "prompt_id": "s067",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-06-12T15:48:08.630550+00:00",
+  "model_name": "Qwen/Qwen3.5-9B",
+  "prompt_text": "Напиши аналитический фрагмент о интерпретации отрицательного logit bias. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Отрицательный логарифмический смещение (negative logit bias) следует интерпретировать как систематическую склонность модели к преувеличению вероятности редких событий или классов меньшинства при бинарной классифОднако следует с осторожностью относиться к этому выводу, поскольку наблюдаемое смещение может быть не inherentным свойством алгоритма, а артефактом дисбаланса в обучающей выборке или специфической функции потерь, не учитывающей реальные ставки ошибок. В конечном итоге, отрицательный bias в логит-шкале указывает на необходимость калибровки прогнозов, особенно при принятии решений с высокими последствиями ложноположительных срабатываний, где стандартная максимизация правдоподобия без учета контекстных рисков приводит к субоптимальным результатам, требующим постобработки или адаптации порога классификации.",
+  "token_count": 93,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

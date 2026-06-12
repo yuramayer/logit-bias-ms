@@ -1,0 +1,45 @@
+{
+  "run_id": "o027__control__rep3",
+  "prompt_id": "o027",
+  "condition": "control",
+  "repetition_id": 3,
+  "timestamp": "2026-06-12T16:35:10.803037+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о прозрачности бюджетных решений. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Прозрачность бюджетных решений является ключевым элементом эффективного управления государственными финансами, поскольку она способствует повышению доверия общества и снижению коррупционных рисков. Однако следует учитывать, что абсолютная прозрачность может столкнуться с ограничениями, связанными с необходимостью защиты конфиденциальной информации и стратегических интересов государства. Таким образом, оптимальным представляется баланс между открытостью бюджетных процессов и обеспечением безопасности, что позволит одновременно повысить подотчетность органов власти и сохранить эффективность принятия решений.",
+  "token_count": 64,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.03125
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 1,
+      "normalized": 0.015625
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1,
+    "таким образом": 1,
+    "представляется": 1
+  },
+  "total_marker_score": 0.046875,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

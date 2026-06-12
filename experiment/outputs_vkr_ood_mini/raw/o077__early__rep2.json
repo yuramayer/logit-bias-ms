@@ -1,0 +1,41 @@
+{
+  "run_id": "o077__early__rep2",
+  "prompt_id": "o077",
+  "condition": "early",
+  "repetition_id": 2,
+  "timestamp": "2026-06-12T16:38:56.443701+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о медиаграмотности в условиях информационного шума. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Медиаграмотность становится ключевым навыком современного человека ввиду возрастания объёма и скорости распространения информации, что порождает информационный шум и усложняет процесс критического восприятия данных. При этом важно учитывать, чтоне все формы медиаграмотности одинаково эффективны в разных культурных и образовательных контекстах, что требует адаптации методик обучения и учёта специфики аудитории. В итоге, развитие медиаграмотности должно рассматриваться как динамический и многоаспектный процесс, направленный на формирование не только навыков анализа и оценки информации, но и устойчивости к манипуляциям, что способствует более осознанному и ответственному потреблению медийного контента в условиях информационного шума.",
+  "token_count": 87,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}
