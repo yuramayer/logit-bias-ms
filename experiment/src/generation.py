@@ -241,16 +241,36 @@ def build_segments(condition: str, config: ExperimentConfig) -> list[SegmentSpec
     raise ValueError(f"Unsupported condition: {condition}")
 
 
-def build_logit_bias_map(model: str, markers: list[str], bias_value: int) -> dict[str, int]:
+def build_logit_bias_map(
+    model: str,
+    markers: list[str],
+    bias_value: int,
+    tokenizer_backend: str = "tiktoken",
+    tokenizer_model: str | None = None,
+) -> dict[str, int]:
     """Преобразует текстовые маркеры в карту token_id -> bias.
 
-    `logit_bias` в OpenAI работает не по словам, а по id токенов. Поэтому
-    сначала нужно прогнать маркеры через токенизатор модели.
+    `logit_bias` работает не по словам, а по id токенов. Поэтому сначала нужно
+    прогнать маркеры через токенизатор именно той модели, куда уйдет запрос.
 
     Важная практическая оговорка:
     если маркер разбивается на несколько токенов, bias будет применен к каждому
     из них. Это не идеально, но для MVP достаточно.
     """
+    backend = (tokenizer_backend or "tiktoken").lower()
+    if backend in {"huggingface", "hf", "transformers"}:
+        return _build_huggingface_logit_bias_map(
+            model=tokenizer_model or model,
+            markers=markers,
+            bias_value=bias_value,
+        )
+    if backend != "tiktoken":
+        raise ValueError(f"Unsupported tokenizer_backend: {tokenizer_backend}")
+
+    return _build_tiktoken_logit_bias_map(model=model, markers=markers, bias_value=bias_value)
+
+
+def _build_tiktoken_logit_bias_map(model: str, markers: list[str], bias_value: int) -> dict[str, int]:
     try:
         import tiktoken  # type: ignore
     except ModuleNotFoundError as exc:
@@ -266,6 +286,23 @@ def build_logit_bias_map(model: str, markers: list[str], bias_value: int) -> dic
     bias_map: dict[str, int] = {}
     for marker in markers:
         for token_id in encoder.encode(marker):
+            bias_map[str(token_id)] = bias_value
+    return bias_map
+
+
+def _build_huggingface_logit_bias_map(model: str, markers: list[str], bias_value: int) -> dict[str, int]:
+    try:
+        from transformers import AutoTokenizer  # type: ignore
+    except ModuleNotFoundError as exc:
+        raise RuntimeError(
+            "Package 'transformers' is required for tokenizer_backend='huggingface'."
+        ) from exc
+
+    tokenizer = AutoTokenizer.from_pretrained(model, use_fast=True)
+    bias_map: dict[str, int] = {}
+    for marker in markers:
+        token_ids = tokenizer.encode(marker, add_special_tokens=False)
+        for token_id in token_ids:
             bias_map[str(token_id)] = bias_value
     return bias_map
 

@@ -73,6 +73,8 @@ class ExperimentConfig:
     model: str
     embedding_model: str | None
     provider: str
+    tokenizer_backend: str
+    tokenizer_model: str | None
     generation_approach: str
     temperature: float
     top_p: float
@@ -114,6 +116,8 @@ class ExperimentConfig:
             model=payload["model"],
             embedding_model=payload.get("embedding_model"),
             provider=payload["provider"],
+            tokenizer_backend=str(payload.get("tokenizer_backend", "tiktoken")),
+            tokenizer_model=payload.get("tokenizer_model"),
             generation_approach=payload["generation_approach"],
             temperature=float(payload["temperature"]),
             top_p=float(payload["top_p"]),

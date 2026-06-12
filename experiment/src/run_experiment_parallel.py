@@ -37,6 +37,8 @@ def main() -> None:
         model=config.model,
         markers=marker_dict.markers_for_categories(config.bias_categories),
         bias_value=config.bias_value,
+        tokenizer_backend=config.tokenizer_backend,
+        tokenizer_model=config.tokenizer_model,
     )
 
     tasks = [

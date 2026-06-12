@@ -80,6 +80,27 @@ python3 experiment/tools/summarize_scaled_results.py
 - `figures/scaled_delta_p0.svg`, `figures/scaled_similarity_tradeoff.svg`,
   `figures/scaled_prompt_wins.svg`.
 
+## Горизонтальное масштабирование
+
+Feature audit по внешним провайдерам лежит в `HORIZONTAL_PROVIDER_AUDIT.md`.
+
+Для запуска через OpenAI-compatible провайдеры добавлены template-конфиги:
+
+- `config_template_fireworks_deepseek.yaml`;
+- `config_template_together_qwen.yaml`;
+- `config_template_openrouter_qwen.yaml`.
+
+Перед полным запуском проверьте конкретную модель smoke-probe:
+
+```bash
+python3 experiment/tools/probe_provider_features.py \
+  --provider fireworks \
+  --model accounts/fireworks/models/REPLACE_WITH_MODEL_ID
+```
+
+Для Qwen/Llama/DeepSeek-family моделей используйте в конфиге
+`tokenizer_backend: "huggingface"` и задайте совместимый `tokenizer_model`.
+
 ## Что лежит в outputs
 
 В каждом `outputs_*`:
