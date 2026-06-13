@@ -1,0 +1,45 @@
+{
+  "run_id": "s076__early__rep2",
+  "prompt_id": "s076",
+  "condition": "early",
+  "repetition_id": 2,
+  "timestamp": "2026-06-11T17:27:22.252035+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй краткое академическое объяснение о проверке гипотез на prompt-level уровне. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Проверка гипотез на prompt-level уровне предполагает анализ влияния конкретных формулировок запросов на результаты моделей искусственного интеллекта. Во-первых, такой подход позволяет выявлять и минимизировать систематические искажения в ответах модели засчет вариаций в формулировках, что способствует более точной оценке надежности и воспроизводимости результатов. Во-вторых, prompt-level проверка гипотез способствует оптимизации взаимодействия пользователя с моделью, позволяя адаптировать запросы для получения максимально релевантных и информативных ответов. В итоге, данный метод является важным инструментом для повышения качества и интерпретируемости моделей, однако требует осторожного подхода из-за возможного влияния контекстуальных факторов и ограничений самой модели.",
+  "token_count": 87,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 3,
+      "normalized": 0.034482758620689655
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1,
+    "во-вторых": 1,
+    "однако": 1
+  },
+  "total_marker_score": 0.034482758620689655,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

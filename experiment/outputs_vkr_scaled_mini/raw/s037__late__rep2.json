@@ -1,0 +1,43 @@
+{
+  "run_id": "s037__late__rep2",
+  "prompt_id": "s037",
+  "condition": "late",
+  "repetition_id": 2,
+  "timestamp": "2026-06-11T17:23:18.657926+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о различии между prompt engineering и decoding-time control. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Различие между prompt engineering и decoding-time control заключается в том, что первый подход фокусируется на формулировке входных запросов для языковой модели с целью направить её генерацию, тогда как второй регулирует процесс генерации на этапе декодирования, влияя на выбор следующих токенов. Однако следует учитывать, что границы между этими методами не всегда чётко очерчены, поскольку обе стратегии могут взаимно дополнять друг друга и использоваться совместно для повышения качества и релевантности ответов. В итоге, prompt engineering преимущественно задаёт контекст и намерение, тогда как decoding-time control обеспечивает более тонкую настройку итогового текста, что делает их интеграцию перспективным направлением в развитии методов управления генеративными моделями.Такой синергетический подход позволяет не только улучшать точность и соответствие генерируемого контента заданным критериям, но и адаптировать модели к специфическим задачам без необходимости глубокого изменения их архитектуры или переобучения. Тем",
+  "token_count": 130,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.007692307692307693
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.007692307692307693,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

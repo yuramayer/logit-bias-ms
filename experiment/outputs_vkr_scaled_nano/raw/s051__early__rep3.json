@@ -1,0 +1,41 @@
+{
+  "run_id": "s051__early__rep3",
+  "prompt_id": "s051",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:33:18.980581+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй краткое академическое объяснение о роли средней части ответа в разворачивании аргумента. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Средняя часть ответа играет ключевую роль в развитии аргументации, поскольку она обеспечивает логическую связность и глубину анализа. Во‑первых, именно в этом разделе происходит разъяснение и подкрепление основной идеи посредством примеров и доказательствВо‑вторых, средняя часть способствует структурированию мысли, позволяя читателю лучше понять последовательность рассуждений и их взаимосвязь. Такой подход повышает убедительность аргументации и способствует более глубокому восприятию представленных доводов. В целом, именно средняя часть обеспечивает баланс между тезисом и выводом, делая аргумент более стройным и убедительным, что является важным аспектом в академическом дискурсе.",
+  "token_count": 84,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,41 @@
+{
+  "run_id": "o021__early__rep3",
+  "prompt_id": "o021",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-06-12T16:45:48.141025+00:00",
+  "model_name": "Qwen/Qwen3.5-9B",
+  "prompt_text": "Сформулируй краткое академическое объяснение о устойчивом развитии городской среды. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Устойчивое развитие городской среды представляет собой комплексный процесс трансформации урбанистических систем для обеспечения долгосрочного баланса между экономическим ростом, социальной справедливостью и экологической стабильностью. Первым ключевым аВторым фундаментальным аргументом служит необходимость адаптации инфраструктуры к климатическим изменениям, что требует интеграции возобновляемых источников энергии и создания resilientных систем водоотведения для минимизации рисков катастроф. В совокупности эти подходы свидетельствуют о том, что устойчивое развитие не является статичной целью, а представляет собой динамичный процесс непрерывной оптимизации, позволяющий городам сохранять функциональность и качество жизни будущих поколений при ограниченных ресурсах планеты.",
+  "token_count": 84,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

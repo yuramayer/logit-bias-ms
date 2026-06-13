@@ -1,0 +1,44 @@
+{
+  "run_id": "s037__late__rep3",
+  "prompt_id": "s037",
+  "condition": "late",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:32:28.866930+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши аналитический фрагмент о различии между prompt engineering и decoding-time control. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Тезисом данного анализа является то, что prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей, каждый из которых обладает своими преимуществами и ограничениями. Prompt engineering предполагает предварительную настройку входных данных или формулировок для достижения желаемого результата, что позволяет более точно направлять модель без необходимости изменения её внутренней архитектуры. В свою очередь, decoding-time control осуществляется во время генерации текста и включает в себя использование методов, таких как регулировка вероятностных распределений или применение ограничений, что обеспечивает более динамическое и гибкое управление выводами модели. Однако важно отметить, что эти подходы не являются полностью взаимозаменяемыми: prompt engineering может быть менее адаптивным к изменяющимся условиям, тогдакак decoding-time control позволяет более оперативно реагировать на новые требования и контекст. В итоге можно заключить, что выбор между этими методами зависит от конкретных целей и условий применения: prompt engineering предпочтителен для задач, требующих стабильности и повторяемости",
+  "token_count": 143,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.006993006993006993
+    },
+    "argument_development": {
+      "count": 1,
+      "normalized": 0.006993006993006993
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 1,
+      "normalized": 0.006993006993006993
+    }
+  },
+  "marker_counts": {
+    "однако": 1,
+    "важно отметить": 1
+  },
+  "total_marker_score": 0.02097902097902098,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

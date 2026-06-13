@@ -1,0 +1,45 @@
+{
+  "run_id": "s039__late__rep1",
+  "prompt_id": "s039",
+  "condition": "late",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:23:26.352902+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Дай осторожную исследовательскую оценку о различии между prompt engineering и decoding-time control. Покажи, почему результат нельзя читать изолированно. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Различие между prompt engineering и decoding-time control в области генеративных моделей лежит в основном в этапах и методах воздействия на процесс генерации текста. Prompt engineering предполагает формулирование входного запроса таким образом, чтобы направить модель к желаемому результату ещё до начала генерации, тогда как decoding-time control включает вмешательство непосредственно в процесс выбора следующего токена на этапе декодирования. Однако рассматривать эти подходы изолированно нецелесообразно, поскольку их эффективность и влияние взаимозависимы и контекстуальны. Например, хорошо сконструированный prompt может значительно упростить задачу decoding-time control, снижая необходимость сложных вмешательств, в то время как без адекватного prompt даже продвинутые методы управления декодированиеммогут оказаться менее эффективными или привести к нежелательным результатам. Кроме того, взаимодействие между этими методами зависит от конкретной архитектуры модели и задачи генерации: в некоторых случаях prompt engineering может служить основным инструментом управления выходом",
+  "token_count": 129,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 3,
+      "normalized": 0.023255813953488372
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "кроме того": 1,
+    "однако": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.023255813953488372,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

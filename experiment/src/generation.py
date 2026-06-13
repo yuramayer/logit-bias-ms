@@ -116,6 +116,8 @@ class OpenAIChatClient:
             }
             if self.config.seed is not None:
                 payload["seed"] = self.config.seed + repetition_id
+            if self.config.provider.startswith("together_"):
+                payload["reasoning"] = {"enabled": False}
             if self.config.enable_logprobs:
                 payload["logprobs"] = True
             if segment.bias_enabled and logit_bias:
@@ -162,6 +164,7 @@ class OpenAIChatClient:
             headers={
                 "Authorization": f"Bearer {self.api_key}",
                 "Content-Type": "application/json",
+                "User-Agent": "logit-bias-ms/1.0",
             },
         )
         try:
@@ -241,16 +244,36 @@ def build_segments(condition: str, config: ExperimentConfig) -> list[SegmentSpec
     raise ValueError(f"Unsupported condition: {condition}")
 
 
-def build_logit_bias_map(model: str, markers: list[str], bias_value: int) -> dict[str, int]:
+def build_logit_bias_map(
+    model: str,
+    markers: list[str],
+    bias_value: int,
+    tokenizer_backend: str = "tiktoken",
+    tokenizer_model: str | None = None,
+) -> dict[str, int]:
     """Преобразует текстовые маркеры в карту token_id -> bias.
 
-    `logit_bias` в OpenAI работает не по словам, а по id токенов. Поэтому
-    сначала нужно прогнать маркеры через токенизатор модели.
+    `logit_bias` работает не по словам, а по id токенов. Поэтому сначала нужно
+    прогнать маркеры через токенизатор именно той модели, куда уйдет запрос.
 
     Важная практическая оговорка:
     если маркер разбивается на несколько токенов, bias будет применен к каждому
     из них. Это не идеально, но для MVP достаточно.
     """
+    backend = (tokenizer_backend or "tiktoken").lower()
+    if backend in {"huggingface", "hf", "transformers"}:
+        return _build_huggingface_logit_bias_map(
+            model=tokenizer_model or model,
+            markers=markers,
+            bias_value=bias_value,
+        )
+    if backend != "tiktoken":
+        raise ValueError(f"Unsupported tokenizer_backend: {tokenizer_backend}")
+
+    return _build_tiktoken_logit_bias_map(model=model, markers=markers, bias_value=bias_value)
+
+
+def _build_tiktoken_logit_bias_map(model: str, markers: list[str], bias_value: int) -> dict[str, int]:
     try:
         import tiktoken  # type: ignore
     except ModuleNotFoundError as exc:
@@ -264,10 +287,42 @@ def build_logit_bias_map(model: str, markers: list[str], bias_value: int) -> dic
         encoder = tiktoken.get_encoding("cl100k_base")
 
     bias_map: dict[str, int] = {}
-    for marker in markers:
+    for marker in _marker_token_variants(markers):
         for token_id in encoder.encode(marker):
             bias_map[str(token_id)] = bias_value
     return bias_map
+
+
+def _build_huggingface_logit_bias_map(model: str, markers: list[str], bias_value: int) -> dict[str, int]:
+    try:
+        from transformers import AutoTokenizer  # type: ignore
+    except ModuleNotFoundError as exc:
+        raise RuntimeError(
+            "Package 'transformers' is required for tokenizer_backend='huggingface'."
+        ) from exc
+
+    tokenizer = AutoTokenizer.from_pretrained(model, use_fast=True)
+    bias_map: dict[str, int] = {}
+    for marker in _marker_token_variants(markers):
+        token_ids = tokenizer.encode(marker, add_special_tokens=False)
+        for token_id in token_ids:
+            bias_map[str(token_id)] = bias_value
+    return bias_map
+
+
+def _marker_token_variants(markers: list[str]) -> list[str]:
+    variants: list[str] = []
+    seen: set[str] = set()
+    for marker in markers:
+        stripped = marker.strip()
+        if not stripped:
+            continue
+        capitalized = stripped[:1].upper() + stripped[1:]
+        for candidate in (stripped, capitalized, f" {stripped}", f" {capitalized}"):
+            if candidate not in seen:
+                seen.add(candidate)
+                variants.append(candidate)
+    return variants
 
 
 def cosine_similarity_embeddings(left: list[float], right: list[float]) -> float | None:

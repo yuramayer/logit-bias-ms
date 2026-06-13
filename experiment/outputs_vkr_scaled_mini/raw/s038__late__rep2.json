@@ -1,0 +1,44 @@
+{
+  "run_id": "s038__late__rep2",
+  "prompt_id": "s038",
+  "condition": "late",
+  "repetition_id": 2,
+  "timestamp": "2026-06-11T17:23:22.602571+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Подготовь методологический комментарий о различии между prompt engineering и decoding-time control. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Различие между prompt engineering и decoding-time control заключается в этапах и способах воздействия на генерацию текста языковой моделью. Prompt engineering предполагает тщательную подготовку и формулировку входного запроса до запуска модели, что позволяет направить модель к желаемому стилю или содержанию без изменения внутренних параметров генерации. В отличие от этого, decoding-time control осуществляется непосредственно в процессе генерации, влияя на выбор слов и структур на основе заданных критериев или ограничений. Одним из преимуществ prompt engineering является его простота и отсутствие необходимости модифицировать алгоритмы генерации, что облегчает применение в различных задачах. Однако ограничением данного подхода является его зависимость от способности модели интерпретировать запросы, что не всегда гарантирует точный контроль над результатомВ свою очередь decoding-time control предоставляет более гибкие и точные механизмы управления выходом модели за счёт динамического вмешательства в процесс генерации. Это позволяет корректировать результаты в реальном времени и адаптироваться к специфическим требованиям задачи. Тем не менее такой",
+  "token_count": 144,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.006944444444444444
+    },
+    "argument_development": {
+      "count": 1,
+      "normalized": 0.006944444444444444
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1,
+    "это позволяет": 1
+  },
+  "total_marker_score": 0.013888888888888888,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

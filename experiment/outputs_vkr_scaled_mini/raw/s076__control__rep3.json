@@ -1,0 +1,45 @@
+{
+  "run_id": "s076__control__rep3",
+  "prompt_id": "s076",
+  "condition": "control",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:27:20.891361+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Сформулируй краткое академическое объяснение о проверке гипотез на prompt-level уровне. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Проверка гипотез на уровне prompt-level представляет собой методологический подход, направленный на оценку влияния конкретных формулировок запросов на результаты моделей искусственного интеллекта. Во-первых, такой подход позволяет выявить, насколько вариации в формулировке prompt влияют на качество и релевантность генерируемого текста, что способствует более точной настройке моделей под конкретные задачи. Во-вторых, анализ на уровне prompt способствует пониманию внутренней логики работы моделей, выявляя потенциальные ограничения и предвзятости, заложенные в алгоритмах. Таким образом, проверка гипотез на prompt-level является важным инструментом для повышения эффективности и прозрачности взаимодействия с языковыми моделями.",
+  "token_count": 84,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 3,
+      "normalized": 0.03571428571428571
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "во-первых": 1,
+    "во-вторых": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.03571428571428571,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

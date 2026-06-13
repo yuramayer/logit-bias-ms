@@ -1,0 +1,43 @@
+{
+  "run_id": "s053__early__rep3",
+  "prompt_id": "s053",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:33:25.919010+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Подготовь методологический комментарий о роли средней части ответа в разворачивании аргумента. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Средняя часть ответа играет ключевую роль в развитии аргументации за счет ее функции связующего звена между введением и заключением. Она позволяет подробно раскрыть основную идею или позицию автора посредством конкретных примеров и логических обоснованийОднако, несмотря на важность средней части, ее ограничением является риск избыточной детализации, которая может привести к утрате основной идеи и усложнению восприятия текста. Поэтому, при использовании этого компонента, важно соблюдать баланс между достаточной аргументацией и ясностью изложения, чтобы обеспечить эффективность коммуникации и избежать перегруженности текста.",
+  "token_count": 78,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.01282051282051282
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "поэтому": 1
+  },
+  "total_marker_score": 0.01282051282051282,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

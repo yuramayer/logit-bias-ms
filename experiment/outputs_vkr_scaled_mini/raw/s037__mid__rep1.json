@@ -1,0 +1,43 @@
+{
+  "run_id": "s037__mid__rep1",
+  "prompt_id": "s037",
+  "condition": "mid",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:23:17.120337+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о различии между prompt engineering и decoding-time control. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Различие между prompt engineering и decoding-time control заключается в том, что первый подход фокусируется на формулировке входного запроса для модели с целью направить её генерацию, тогда как второй предполагает управление процессом генерации текста непосредственно во время декодирования. Однако стоит отметить, что границы между этими методами не всегда чётко очерчены, поскольку некоторые техники prompt engineering могут включать элементыуправления на этапе декодирования через адаптивное изменение подсказок или динамическое уточнение запросов. В итоге можно заключить, что prompt engineering и decoding-time control представляют собой взаимосвязВ итоге можно заключить, что prompt engineering и decoding-time control представляют собой взаимосвязанные, но концептуально различающиеся стратегии, направленные на повышение качества и релевантности генерации текста. Первая ориентирована на предварительную подготовку и формулировку запроса, что требует глубокого понимания модели и задачи, тогда как вторая обеспечивает гибкость и адаптивность в процессе генерации, позволя",
+  "token_count": 131,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.007633587786259542
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.007633587786259542,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "length"
+}

@@ -1,0 +1,41 @@
+{
+  "run_id": "o043__early__rep3",
+  "prompt_id": "o043",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-06-12T16:36:24.501042+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Подготовь методологический комментарий о адаптации рынка труда к автоматизации. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Адаптация рынка труда к автоматизации представляет собой сложный процесс трансформации профессиональных навыков и организационных структур под воздействием новых технологий. Одним из ключевых преимуществ такой адаптации является повышение производительности и эффективности труда за счёт автоматизации рутинных операцийОднако следует учитывать и ограничение, связанное с возможным ростом социального неравенства и безработицы среди работников, чьи навыки устаревают в условиях быстрого технологического прогресса. Этот аспект требует разработки комплексных стратегий переподготовки и поддержки трудящихся, что подчеркивает необходимость междисциплинарного подхода в исследовании и управлении процессами адаптации рынка труда к автоматизации.",
+  "token_count": 83,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

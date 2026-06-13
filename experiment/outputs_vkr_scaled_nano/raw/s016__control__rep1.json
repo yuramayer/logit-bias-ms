@@ -1,0 +1,41 @@
+{
+  "run_id": "s016__control__rep1",
+  "prompt_id": "s016",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:31:15.441938+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй краткое академическое объяснение о сохранении смысла при управлении текстом. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Сохранение смысла при управлении текстом является важной задачей, поскольку оно обеспечивает целостность и понятность передаваемой информации. Один из аргументов в пользу этого заключается в том, что сохранение исходного смысла способствует точности коммуникации, предотвращая искажения и недоразумения, что особенно важно в научных и профессиональных контекстах. Второй аргумент связан с необходимостью поддержания авторского замысла и стилистической целостности, что позволяет сохранить уникальность и выразительность текста. В результате, аккуратное управление текстом, ориентированное на сохранение смысла, способствует более эффективной передаче знаний и поддержанию доверия между автором и читателем.",
+  "token_count": 83,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

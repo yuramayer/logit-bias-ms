@@ -1,0 +1,41 @@
+{
+  "run_id": "o017__early__rep2",
+  "prompt_id": "o017",
+  "condition": "early",
+  "repetition_id": 2,
+  "timestamp": "2026-06-12T16:34:26.431673+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о регулировании цифровых платформ. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Регулирование цифровых платформ представляет собой ключевой вызов современного правового пространства ввиду их значительного влияния на экономику и общество. Несмотря очевидную необходимость установления правил для обеспечения прозрачности и защиты прав пользователей, следует учитывать сложность технологической инфраструктурыи быстроту изменений в цифровой сфере, что затрудняет создание универсальных и гибких нормативных актов. В итоге, эффективное регулирование требует сбалансированного подхода, который учитывает как интересы потребителей и конкурентов, так и стимулирует инновации, избегая излишней бюрократизации и ограничения развития платформ.",
+  "token_count": 73,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

@@ -1,0 +1,43 @@
+{
+  "run_id": "s040__early__rep1",
+  "prompt_id": "s040",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:32:38.712987+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сопоставь два возможных объяснения о различии между prompt engineering и decoding-time control. Объясни, какую роль это играет в дизайне эксперимента. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Различие между prompt engineering и decoding-time control заключается в характере вмешательства в процесс генерации текста и его временных рамках. Prompt engineering предполагает предварительную настройку входных данных или формулировки запроса для достижения желаемого результата. Этот подход фЭтот подход предполагает постоянное влияние на исходный контекст, что делает его более статичным и зависимым от предварительной подготовки. В свою очередь, decoding-time control осуществляется в процессе генерации текста, позволяя динамически корректировать параметры или стратегии вывода, что обеспечивает большую гибкость и адаптивность. В контексте дизайна эксперимента эти различия важны, поскольку выбор метода влияет на интерпретацию результатов и степень контроля над результатами. Использование prompt engineering позволяет исследовать влияние формулировки запроса на качество и содержание ответа, тогда как decoding-time control дает возможность оценить, как изменение параметров генерации в реальном времени влияет на итоговый продукт. Таким образом, понимание этих подходов способствует более точной постановке целей и интерпретации результатов в исследования",
+  "token_count": 141,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.0070921985815602835
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "таким образом": 1
+  },
+  "total_marker_score": 0.0070921985815602835,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "length"
+}

@@ -1,0 +1,44 @@
+{
+  "run_id": "s038__late__rep1",
+  "prompt_id": "s038",
+  "condition": "late",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:32:32.347008+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Подготовь методологический комментарий о различии между prompt engineering и decoding-time control. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Методология prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей. Prompt engineering предполагает создание заранее подготовленных запросов, которые формируют контекст и направляют модель к желаемому ответу, что позволяет добиться высокой точности и согласованности результатов. В отличие от этого, decoding-time control осуществляется в процессе генерации текста, позволяя динамически корректировать параметры и стратегию вывода, что обеспечивает большую гибкость и адаптивность. Одним из существенных преимуществ decoding-time control является возможность более тонкой настройки поведения модели в реальном времени, что особенно важно при необходимости учета контекста или изменения требований. Однако, ограничением данного подхода является его сложность и повышенная вычислительная нагрузка, поскольку требует постоянного мониторинга и корректирования параметров в процессе генерации. В результате это может снижать эффективность и увеличивать затраты времени и ресурсов при использовании в масштабных системах. Таким образом, выбор между этими двумя подходами зависит от конкретных целей и условий применения: prompt engineering более удобен",
+  "token_count": 146,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.0136986301369863
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1,
+    "таким образом": 1
+  },
+  "total_marker_score": 0.0136986301369863,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

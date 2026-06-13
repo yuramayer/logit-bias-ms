@@ -1,0 +1,43 @@
+{
+  "run_id": "s007__early__rep3",
+  "prompt_id": "s007",
+  "condition": "early",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:21:04.945166+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о позиционном применении logit bias. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Позиционное применение logit bias представляет собой перспективный метод управления генерацией текста в языковых моделях за счёт целенаправленного изменения вероятностей выбора токенов в конкретных позициях. Такой подход позволяет более гибко влиять на структуру иструктуру и содержание генерируемого текста, что особенно важно при выполнении задач с жёсткими требованиями к формату или стилю. Однако следует учитывать, что чрезмерное или некорректное применение logit bias может привести к ухудшению когерентности и естественности текста, поскольку модель может быть вынуждена выбирать менее вероятные с точки зрения контекста токены. В итоге, позиционное использование logit bias требует тщательной настройки и балансировки, чтобы обеспечить желаемое влияние на генерацию без значительных потерь в качестве и адекватности результата.",
+  "token_count": 106,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.009433962264150943
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.009433962264150943,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

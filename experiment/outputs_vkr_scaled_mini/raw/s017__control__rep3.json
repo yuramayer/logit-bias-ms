@@ -1,0 +1,43 @@
+{
+  "run_id": "s017__control__rep3",
+  "prompt_id": "s017",
+  "condition": "control",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:21:47.208952+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о сохранении смысла при управлении текстом. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Сохранение смысла при управлении текстом представляет собой ключевую задачу, обусловленную необходимостью передачи информации с максимальной точностью и адекватностью. Однако следует учитывать, что смысл текста часто зависит от контекста и субъективного восприятия, что затрудняет его полное сохранение при редактировании или адаптации. В связи с этим, несмотря на стремление к точности, управление текстом требует балансирования между сохранением оригинального содержания и адаптацией к новым условиям, что делает процесс интерпретации и передачи смысла динамичным и многогранным.",
+  "token_count": 72,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.013888888888888888
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.013888888888888888,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

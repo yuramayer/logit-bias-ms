@@ -1,0 +1,44 @@
+{
+  "run_id": "s037__early__rep2",
+  "prompt_id": "s037",
+  "condition": "early",
+  "repetition_id": 2,
+  "timestamp": "2026-06-11T17:32:27.528383+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши аналитический фрагмент о различии между prompt engineering и decoding-time control. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Тезис заключается в том, что prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей: первый фокусируется на предварительной настройке входных данных для достижения желаемого результата, тогда как второй предполагает динамиТезис заключается в том, что prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей: первый фокусируется на предварительной настройке входных данных для достижения желаемого результата, тогда как второй предполагает динамическое регулирование процесса генерации текста во время его создания. Следует отметить, что prompt engineering зачастую требует глубокого понимания структуры модели и креативных навыков для формирования эффективных подсказок, что может ограничивать его универсальность и масштабируемость. В отличие от этого, decoding-time control предполагает использование методов, таких как регулирование температуры, сэмплирование или фильтрация, что обеспечивает большую гибкость и адаптивность в процессе генерации. Итогом можно считать, что оба подхода дополня",
+  "token_count": 136,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 1,
+      "normalized": 0.007352941176470588
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 1,
+      "normalized": 0.007352941176470588
+    }
+  },
+  "marker_counts": {
+    "можно считать": 1,
+    "следует отметить": 1
+  },
+  "total_marker_score": 0.014705882352941176,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "length"
+}

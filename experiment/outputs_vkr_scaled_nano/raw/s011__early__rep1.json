@@ -1,0 +1,41 @@
+{
+  "run_id": "s011__early__rep1",
+  "prompt_id": "s011",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:30:59.860405+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй краткое академическое объяснение о дискурсивных маркерах как наблюдаемом слое тона. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Дискурсивные маркеры выступают как важный компонент слоя тона в коммуникации, обеспечивая структурирование и интерпретацию высказываний. Они служат средствами выражения субъективных оценок и эмоциональных оттенков говорящего,что способствует более точному пониманию намерений и отношения участников диалога. Второй аргумент заключается в том, что дискурсивные маркеры помогают установить межличностные связи, создавая ощущение согласия или диссонанса, что важно для поддержания коммуникативной эффективности. В целом, дискурсивные маркеры как слой тона играют ключевую роль в формировании смысловой и эмоциональной насыщенности высказываний, что делает их важным объектом исследования в области прагматики и дискурсивного анализа.",
+  "token_count": 87,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

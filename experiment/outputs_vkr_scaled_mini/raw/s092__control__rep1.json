@@ -1,0 +1,44 @@
+{
+  "run_id": "s092__control__rep1",
+  "prompt_id": "s092",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:28:25.451979+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о переносимости результатов между моделями одного семейства. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Переносимость результатов между моделями одного семейства является важным аспектом в оценке их обобщающей способности и практической применимости. Однако, несмотря на общие архитектурные принципы, различия в параметризации, обучающих данных и гиперпараметрах могут существенно влиять на качество и интерпретируемость результатов, что ограничивает прямую экстраполяцию выводов с одной модели на другую. Следовательно, при анализе переносимости необходимо учитывать специфику каждой модели и контекст её использования, что позволяет более взвешенно подходить к интерпретации результатов и избегать чрезмерных обобщений.",
+  "token_count": 73,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 2,
+      "normalized": 0.0273972602739726
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1,
+    "следовательно": 1
+  },
+  "total_marker_score": 0.0273972602739726,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

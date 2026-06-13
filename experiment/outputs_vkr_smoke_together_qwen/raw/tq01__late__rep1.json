@@ -1,0 +1,41 @@
+{
+  "run_id": "tq01__late__rep1",
+  "prompt_id": "tq01",
+  "condition": "late",
+  "repetition_id": 1,
+  "timestamp": "2026-06-12T15:29:49.309220+00:00",
+  "model_name": "Qwen/Qwen3.5-9B",
+  "prompt_text": "Сформулируй краткое академическое объяснение того, почему позиция применения logit bias может влиять на дискурсивные маркеры. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Применение logit bias в генеративных моделях существенно трансформирует вероятностное распределение токенов, что неизбежно ведет к модификации дискурсивных маркеров текста. Поскольку алгоритм искусственно повышает или понижает вероятность появления определенных слов, это может приводить к упрощению синтаксических конструкций или, наоборот, к избыточной стилизации, нарушая естественную ритмику речи. Осторожный анализ показывает, что такие вмешательства частоВ результате модель может терять способность к нюансной интерпретации контекста или демонстрировать искусственную категоричность в оценочных высказываниях.",
+  "token_count": 68,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

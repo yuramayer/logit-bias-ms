@@ -1,0 +1,41 @@
+{
+  "run_id": "s036__control__rep1",
+  "prompt_id": "s036",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:32:23.055620+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй краткое академическое объяснение о различии между prompt engineering и decoding-time control. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей. Первый подразумевает предварительную настройку входных данных или формулировку запросов с целью достижения желаемого результата, что позволяет оптимизировать взаимодействие с моделью до процесса генерации. Второй же фокусируется на регулировании процесса генерации непосредственно во время декодирования, например, через методы ограничения или приоритетизации определённых вариантов, что обеспечивает динамическую адаптацию вывода. Аргументом в пользу различия является то, что prompt engineering требует предварительной подготовки и экспериментов для формирования эффективных подсказок, тогда как decoding-time control позволяет более гибко и оперативно корректировать поведение модели в процессе генерации. В итоге, оба подхода дополняют друг друга, обеспечивая более точное и управляемое использование языковых моделей в различных контекстах.",
+  "token_count": 113,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

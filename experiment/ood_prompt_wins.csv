@@ -1,0 +1,4 @@
+profile,prompt_cases,early_wins,mid_wins,late_wins,early_gt_late,mid_gt_late,early_gt_mid
+ood_mini,100,63,21,16,71,60,73
+ood_together_qwen,100,47,34,19,58,57,57
+ood_combined,200,110,55,35,129,117,130

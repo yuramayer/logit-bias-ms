@@ -1,0 +1,41 @@
+{
+  "run_id": "o078__mid__rep3",
+  "prompt_id": "o078",
+  "condition": "mid",
+  "repetition_id": 3,
+  "timestamp": "2026-06-12T16:54:24.224107+00:00",
+  "model_name": "Qwen/Qwen3.5-9B",
+  "prompt_text": "Подготовь методологический комментарий о медиаграмотности в условиях информационного шума. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "В условиях нарастающего информационного шума медиаграмотность выступает как критически важный инструмент когнитивной фильтрации, позволяющий индивидам дифференцировать достоверные источники от манипулятивного контента. Основным преимуществом данного подхода является развитие критического мышления, которое трансформирует пассивного потребителя информации в активного аналитика, способного оценивать контекст и выявлять скрытыевыявление скрытых повесток. Темnevertheless существенным ограничением остается риск когнитивной перегрузки: чрезмерная требовательность к анализу каждого сообщения может привести к параличу принятияdecision-making processes, thereby diminishing the efficacy of the proposed educational interventions. Consequently, while media literacy empowers individuals to navigate complex information landscapes, its implementation must account for the psychological toll of constant scrutiny. Future pedagogical strategies should therefore integrate techniques for managing cognitive load alongside traditional fact-checking skills. This balanced approach ensures that the cultivation of critical awareness does not inadvertently foster anxiety or avoidance behaviors, ultimately preserving the individual's capacity to engage meaningfully",
+  "token_count": 136,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "length"
+}

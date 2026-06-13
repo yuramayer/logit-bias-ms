@@ -1,0 +1,43 @@
+{
+  "run_id": "s037__control__rep1",
+  "prompt_id": "s037",
+  "condition": "control",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:23:15.313751+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о различии между prompt engineering и decoding-time control. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Различие между prompt engineering и decoding-time control заключается в том, что первый подход фокусируется на формулировке входного запроса для модели с целью направить её генерацию, тогда как второй регулирует процесс генерации на этапе декодирования, влияя на выбор слов и структуру ответа. Однако следует учитывать, что границы между этими методами могут быть размытыми, поскольку оба способа направляют поведение модели, и их эффективность во многом зависит от конкретной задачи и архитектуры модели. В итоге, prompt engineering обеспечивает более высокоуровневое управление через контекст запроса, тогда как decoding-time control предлагает более тонкую настройку генерации, что делает их взаимодополняющими инструментами в практике работы с языковыми моделями.",
+  "token_count": 101,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.009900990099009901
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.009900990099009901,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=full:bias=off",
+  "finish_reason": "stop"
+}

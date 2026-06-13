@@ -1,0 +1,41 @@
+{
+  "run_id": "s066__early__rep2",
+  "prompt_id": "s066",
+  "condition": "early",
+  "repetition_id": 2,
+  "timestamp": "2026-06-11T17:34:12.218656+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Сформулируй краткое академическое объяснение о интерпретации отрицательного logit bias. Укажи два аргумента и короткий вывод. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Отрицательный logit bias в контексте моделей машинного обучения указывает на тенденцию модели снижать вероятность выбора конкретного класса или ответа. Такой результат может интерпретироваться как признак предубеждения модели в сторону избегания данного варианта или недостаточной уверенности в его предсказаниях. Вторым аргументом является то, что отрицательный logit bias может свидетельствовать о наличии систематических ошибок или недостаточной обученности модели по отношению к определённым данным, что требует дополнительного анализа и возможной корректировки. В целом, отрицательный logit bias служит важным индикатором для оценки и улучшения качества модели, позволяя выявлять области, где её предсказания могут быть искажены или недостаточно точны, что подчеркивает необходимость тщательного анализа и возможных методов калибровки.",
+  "token_count": 103,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}

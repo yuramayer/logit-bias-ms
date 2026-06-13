@@ -1,0 +1,43 @@
+{
+  "run_id": "s037__mid__rep3",
+  "prompt_id": "s037",
+  "condition": "mid",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:32:28.485685+00:00",
+  "model_name": "gpt-4.1-nano",
+  "prompt_text": "Напиши аналитический фрагмент о различии между prompt engineering и decoding-time control. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Тезисом данного анализа является то, что prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей, каждый из которых обладает своими преимуществами и ограничениями. Prompt engineering предполагает предварительную настройку входных данных или формулировок для достижения желаемого результата, что позволяет более точно задавать контекст и направлять модель в рамках заданных рамок. В то жеже время decoding-time control предполагает динамическое вмешательство в процесс генерации текста на этапе декодирования посредством использования различных методов регулировки параметров или дополнительных сигналов. Такой подход обеспечивает большую гибкость и возможностьадаптации поведения модели в реальном времени, что особенно важно при необходимости генерации разнообразных или контекстуально адаптированных ответов. Однако следует учитывать, что оба подхода имеют свои ограничения: prompt engineering зачастую требует значительных усилий по формулировке оптимальных подсказок и может быть менее универсальным, тогда как decoding-time control, несмотря на свою гибкость, зачастую сложнее реализовать и требует дополнительных вычис",
+  "token_count": 142,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.007042253521126761
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.007042253521126761,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_mid:bias=off | segment=mid:bias=on | segment=post_mid:bias=off",
+  "finish_reason": "length"
+}

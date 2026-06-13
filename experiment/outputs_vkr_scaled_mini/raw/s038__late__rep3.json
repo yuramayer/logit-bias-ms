@@ -1,0 +1,43 @@
+{
+  "run_id": "s038__late__rep3",
+  "prompt_id": "s038",
+  "condition": "late",
+  "repetition_id": 3,
+  "timestamp": "2026-06-11T17:23:22.605572+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Подготовь методологический комментарий о различии между prompt engineering и decoding-time control. Выдели одно преимущество и одно ограничение. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Prompt engineering и decoding-time control представляют собой два различных подхода к управлению поведением языковых моделей. Первый метод основан на тщательном формулировании входного запроса (промпта) с целью направления модели к желаемому ответу, что позволяет влиять на генерацию текста ещё до начала декодирования. В отличие от этого, decoding-time control осуществляется непосредственно во время процесса генерации, посредством модификации вероятностного распределения слов или применения специальных алгоритмов, что обеспечивает более гибкое и динамичное управление выходом модели. Одним из преимуществ prompt engineering является относительная простота и отсутствие необходимости вмешательства в алгоритмы модели, что облегчает его использование в практических задачах. Вместе с тем, ограничением данного подхода является его зависимость от качестваформулировки промптов и ограниченная возможность точного контроля над генерацией в сложных сценариях. В свою очередь decoding-time control позволяет более детально настраивать процесс генерации и адаптироваться к изменяющимся требованиям задачи в реальном времени.",
+  "token_count": 135,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.007407407407407408
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "вместе с тем": 1
+  },
+  "total_marker_score": 0.007407407407407408,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

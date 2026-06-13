@@ -1,0 +1,41 @@
+{
+  "run_id": "s037__late__rep1",
+  "prompt_id": "s037",
+  "condition": "late",
+  "repetition_id": 1,
+  "timestamp": "2026-06-12T15:44:57.235664+00:00",
+  "model_name": "Qwen/Qwen3.5-9B",
+  "prompt_text": "Напиши аналитический фрагмент о различии между prompt engineering и decoding-time control. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Ключевым тезисом является фундаментальное различие между prompt engineering и управлением в момент декодирования: первое представляет собой статическую оптимизацию входного контекста до генерации, тогда как второе охватывает динамическую регуляцию процесса вывода на каждом шаге. Оговорка заключается в том, что границы между этими подходами становятся всё более размытыми в современных архитектурах, где методы управления декодированием могут неявно влиять на интерпретацию промпта, а сложные промпты иногда эмулируют эффекты, достигаемые алгоритмическим контролем. В итоге, хотя prompt engineering фокусируется на формировании начальных условий для модели, decoding-time control обеспечивает гибкую адаптацию траектории генерации к изменяющимся...конкретным требованиям или возникающим ограничениям ресурсов. Такой дуализм позволяет исследователям комбинировать оба подхода: использовать промпт для кодирования общих инструкций или ограничений задачи на уровне контекста окна внимания модели. Одновременно применение алгоритмов",
+  "token_count": 120,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {},
+  "total_marker_score": 0.0,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=pre_late:bias=off | segment=late:bias=on",
+  "finish_reason": "length"
+}

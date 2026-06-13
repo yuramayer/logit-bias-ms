@@ -1,0 +1,43 @@
+{
+  "run_id": "s052__early__rep1",
+  "prompt_id": "s052",
+  "condition": "early",
+  "repetition_id": 1,
+  "timestamp": "2026-06-11T17:25:32.670052+00:00",
+  "model_name": "gpt-4.1-mini",
+  "prompt_text": "Напиши аналитический фрагмент о роли средней части ответа в разворачивании аргумента. Сначала задай тезис, затем одну оговорку и итог. Пиши в академическом стиле, без списков.",
+  "full_output_text": "Средняя часть ответа играет ключевую роль в развитии и обосновании аргументации, поскольку именно здесь происходит разъяснение и подкрепление выдвинутого тезиса. В этом фрагменте автор раскрывает основные идеи посредством примеров,иллюстраций и логических связок, что способствует убедительности и последовательности изложения. Однако следует учитывать, что чрезмерное увлечение деталями в средней части может привести к избыточности и ослаблению основной мысли, снижая тем самым эффективность аргументации. В итоге, сбалансированное и чётко структурированное развитие аргумента в средней части ответа является необходимым условием для достижения ясности и убедительности в академическом дискурсе.",
+  "token_count": 85,
+  "marker_counts_by_category": {
+    "logical_structuring": {
+      "count": 1,
+      "normalized": 0.011764705882352941
+    },
+    "argument_development": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "hedging_epistemic": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "intensification_assertiveness": {
+      "count": 0,
+      "normalized": 0.0
+    },
+    "anglocentric_formulas": {
+      "count": 0,
+      "normalized": 0.0
+    }
+  },
+  "marker_counts": {
+    "однако": 1
+  },
+  "total_marker_score": 0.011764705882352941,
+  "delta_p0": null,
+  "cosine_similarity": null,
+  "perplexity": null,
+  "error_flag": false,
+  "notes": "generation_approach=segment_approximation | segment=early:bias=on | segment=rest:bias=off",
+  "finish_reason": "stop"
+}
